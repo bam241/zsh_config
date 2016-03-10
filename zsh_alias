@@ -52,7 +52,7 @@ alias put='/Users/mouginot/.bin/put.sh'
 
 
 
-alias tunnel='ssh -D8080 vps204419.ovh.net'
+alias tunnel='ssh -D8080 mouginot@vps204419.ovh.net'
 alias pi="ssh -X osmc@10.130.35.96"
 
 ##################
