@@ -1,6 +1,6 @@
-cd
-git clone git@github.com:Baaaaam/zsh_config.git .zsh_config
-cd .zsh_config
+#cd
+#git clone git@github.com:Baaaaam/zsh_config.git .zsh_config
+#cd .zsh_config
 git clone git@github.com:Baaaaam/oh-my-zsh.git oh-my-zsh
 cd
 mv .zshrc .zshrc_bak
