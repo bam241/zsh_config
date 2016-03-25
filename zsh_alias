@@ -60,7 +60,7 @@ alias pi="ssh -X osmc@10.130.35.96"
 ##Alias generaux##
 ##################
 alias cp='cp -v'
-alias ls='ls -Gh'
+alias ls='ls -Gh --color'
 alias ll='ls -alG'
 alias lf='ls -FG'
 alias xterm='xterm&'
