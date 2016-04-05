@@ -19,11 +19,10 @@ export LANG="en_US.UTF-8"
 ####---------------------------------------------------####
 
 DEFAULT_USER=lineminimoon
-export WORK_PATH="/Users/mouginot/work"
+export WORK_PATH="/Users/lineminimoon/work"
 export APP_PATH="${WORK_PATH}/App"
 
 export PATH="${HOME}/.local/bin:$PATH"
-export WORK_PATH="/Users/mouginot/work"
 export CYCLUS_PATH="${APP_PATH}/cyclus"
 
 ####---------------------------------------------------####
@@ -39,8 +38,8 @@ export git='git@github.com:Baaaaam/'
 ####---------------------------------------------------####
 # Compilation
 
-export CC=/opt/local/bin/gcc
-export CXX=/opt/local/bin/g++
+#export CC=/opt/local/bin/gcc
+#export CXX=/opt/local/bin/g++
 
 export CMAKE_MODULE_PATH=/opt/local/include
 export CMAKE_PREFIX_PATH=/opt/local
