@@ -3,23 +3,23 @@
 #############################
 # variables d'environnement #
 #############################
-export MANPATH="/opt/local/share/man"
+#export MANPATH="/opt/local/share/man"
 
 
-export PATH="/opt/local/lib"
-export PATH="${PATH}:/opt/local/bin"
-export PATH="${PATH}:/usr/local/bin"
-export PATH="${PATH}:/usr/bin:/bin:"
-export PATH="${PATH}:/usr/sbin:/sbin"
-export PATH="${PATH}:/opt/X11/bin"
-export PATH="${PATH}:/Library/TeX/texbin"
+#export PATH="/opt/local/lib"
+#export PATH="${PATH}:/opt/local/bin"
+#export PATH="${PATH}:/usr/local/bin"
+#export PATH="${PATH}:/usr/bin:/bin:"
+#export PATH="${PATH}:/usr/sbin:/sbin"
+#export PATH="${PATH}:/opt/X11/bin"
+#export PATH="${PATH}:/Library/TeX/texbin"
 
 export LANG="en_US.UTF-8"
 
 ####---------------------------------------------------####
 
 DEFAULT_USER=mouginot
-export WORK_PATH="/Users/mouginot/work"
+export WORK_PATH="/home/mouginot/work"
 export APP_PATH="${WORK_PATH}/App"
 
 export PATH="${HOME}/.local/bin:$PATH"
@@ -38,24 +38,6 @@ export git='git@github.com:Baaaaam/'
 
 ####---------------------------------------------------####
 # Compilation
-
-export CC=/opt/local/bin/gcc
-export CXX=/opt/local/bin/g++
-
-export CMAKE_MODULE_PATH=/opt/local/include
-export CMAKE_PREFIX_PATH=/opt/local
-
-
-####---------------------------------------------------####
-
-
-####---------------------------------------------------####
-# HDF5
-
-export HDF5_DIR=/opt/local/lib
-export HDF5_ROOT=/opt/local/
-
-export PATH="$PATH:${HDF5_DIR}"
 
 ####---------------------------------------------------####
 

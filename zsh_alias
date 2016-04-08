@@ -33,13 +33,13 @@ alias log="svn log"
 
 
 
-alias cdh="source /Users/mouginot/.bin/cdh.sh"
-alias ucdh="/Users/mouginot/.bin/UmountAll"
+alias cdh="source /home/mouginot/.bin/cdh.sh"
+alias ucdh="/home/mouginot/.bin/UmountAll"
 
 
 alias qstat="ssh -Y nansl1.in2p3.fr ssh -Y nansl3.in2p3.fr qstat"
 alias qdel="ssh nansl1.in2p3.fr qdel"
-alias QSUB="/Users/mouginot/.bin/QSUB.sh"
+alias QSUB="/home/mouginot/.bin/QSUB.sh"
 
 alias sl1="~/.bin/nanssh.sh nansl1"
 alias kermit="ssh -X kermit.ep.wisc.edu"
@@ -47,10 +47,9 @@ alias mountkernit="source ~/.bin/mountkermit.sh"
 
 alias imac="~/.bin/imacssh.sh"
 
-alias sync='/Users/mouginot/.bin/sync.sh'
-alias get='/Users/mouginot/.bin/get.sh'
-alias put='/Users/mouginot/.bin/put.sh'
-
+alias sync='/home/mouginot/.bin/sync.sh'
+alias get='/home/mouginot/.bin/get.sh'
+alias put='/home/mouginot/.bin/put.sh'
 
 
 alias tunnel='ssh -D8080 vps204419.ovh.net'
@@ -72,5 +71,6 @@ alias umount='sudo umount'
 alias mount='sudo mount'
 alias srm='mv -v \!* ~/.Trash/'
 alias mv='mv -v'
-alias sudo='/Users/mouginot/.bin/sudo.sh'
 alias ssh='ssh -X'
+
+
