@@ -20,6 +20,7 @@ alias finder='open -a finder'
 alias sed='gsed'
 alias root='root -l'
 alias cdw='cd ${WORK_PATH}'
+alias vi='vim'
 
 #######################
 ######### SVN #########
