@@ -1,4 +1,4 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sets how many lines of history VIM has to remember
@@ -21,6 +21,7 @@ augroup END
 
 
 colorscheme darkmate
+set termguicolors
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -41,7 +42,7 @@ set softtabstop=2
 set tabstop=2
 
 " Python tabbing
-set tabstop=2 expandtab filetype=python:
+" set tabstop=2 expandtab filetype=python:
 au FileType python setlocal formatprg=autopep8\ -
 
 " Linebreak on 80 characters
