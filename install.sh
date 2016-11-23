@@ -8,7 +8,7 @@ git clone http://github.com/zsh-users/zsh-syntax-highlighting.git oh-my-zsh/plug
 
 
 # Installing the new config
-ln -s ../.zsh_config/zshrc ../.zshrc
-ln -s ../.zsh_config/gitconfig ../.gitconfig
-ln -s ../.zsh_config/vim ../.vim
-ln -s ../.zsh_config/vimrc ../.vimrc
+ln -s .zsh_config/zshrc ../.zshrc
+ln -s .zsh_config/gitconfig ../.gitconfig
+ln -s .zsh_config/vim ../.vim
+ln -s .zsh_config/vimrc ../.vimrc
