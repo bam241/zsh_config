@@ -8,3 +8,7 @@ alias zsh='$HOME/.local/bin/zsh'
 alias q='condor_q -nobatch'
 alias sub='condor_submit'
 alias cq='condor_rm'
+
+source $HOME/.zsh_config/zsh/macro
+source $HOME/.zsh_config/zsh/alias
+source $HOME/.zsh_config/zsh/ohmzsh

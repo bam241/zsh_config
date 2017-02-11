@@ -1,6 +1,4 @@
-
-
-alias emacs='emacs -nw'
+#!/bin/zsh
 
 
 export ROOTSYS=$APP_PATH/root-6.06.02/bld
@@ -17,13 +15,11 @@ export LD_LIBRARY_PATH="/home/mouginot/.local/lib/python2.7:${LD_LIBRARY_PATH}"
 
 
 
+source $HOME/.zsh_config/zsh/env_perso
+source $HOME/.zsh_config/zsh/work
 
-# MURE Package Libraries
-export MURE_PATH=${APP_PATH}/MURE
-export DATADIR=${MURE_PATH}/data
-export MURE_include=${MURE_PATH}/source/include
-export MURE_ExternalPkg=${MURE_PATH}/source/external
-export MURE_lib=${MURE_PATH}/lib
-export LD_LIBRARY_PATH="${MURE_lib}:${LD_LIBRARY_PATH}"
+source $HOME/.zsh_config/zsh/macro
+source $HOME/.zsh_config/zsh/alias
+source $HOME/.zsh_config/zsh/ohmzsh
 
 

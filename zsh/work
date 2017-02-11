@@ -1,52 +1,17 @@
 #!/bin/zsh
 
-#############################
-# variables d'environnement #
-#############################
-
-export MANPATH="/usr/local/man:$MANPATH"
+alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
+alias cyclus_debug='export CYCLUS_NO_CATCH=1'
+#alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
 
 
-export PATH="${PATH}:/usr/local/bin"
-export PATH="${PATH}:/usr/bin:/bin:"
-export PATH="${PATH}:/usr/sbin:/sbin"
+alias root="root -l"
 
 
-export LC_ALL='en_US.UTF-8'
-export LANG='en_US.UTF-8'
+
 ####---------------------------------------------------####
-
-export hostname=`hostname -s`
-export WORK_PATH="$HOME/work"
-export APP_PATH="${WORK_PATH}/app"
-
-export PATH="${HOME}/.local/bin:$PATH"
-export WORK_PATH="$HOME/work"
-
 export CYCLUS_PATH="${APP_PATH}/cyclus"
-export SERPENT_DATA="${WORK_PATH}/data"
 
-export GOPATH="${APP_PATH}/go"
-export PATH="${PATH}:${GOPATH}/bin"
-
-####---------------------------------------------------####
-
-export kermit='kermit.ep.wisc.edu'
-export ovh='vps204419.ovh.net'
-export pi='192.168.1.5'
-export git='git@github.com:bam241/'
-export glab='git@gitlab.in2p3.fr:bam/'
-
-
-
-####---------------------------------------------------####
-# Compilation
-
-
-####---------------------------------------------------####
-
-
-####---------------------------------------------------####
 # MCNP
 
 export MCNP_PATH=${APP_PATH}/MCNP
@@ -65,7 +30,13 @@ export SERPENT_PATH="${APP_PATH}/Serpent/"
 export PATH="${PATH}:${SERPENT_PATH}"
 
 ####---------------------------------------------------####
-# root
+#MURE
+export MURE_PATH=${APP_PATH}/MURE
+export DATADIR=${MURE_PATH}/data
+export MURE_include=${MURE_PATH}/source/include
+export MURE_ExternalPkg=${MURE_PATH}/source/external
+export MURE_lib=${MURE_PATH}/lib
+export LD_LIBRARY_PATH="${MURE_lib}:${LD_LIBRARY_PATH}"
 
 ####---------------------------------------------------####
 
@@ -80,13 +51,5 @@ export CLASS_lib=${CLASS_PATH}/lib
 export PATH=${PATH}:${CLASS_PATH}/gui/bin
 
 ####---------------------------------------------------####
-
-
-
-
-
-
-
-
 
 

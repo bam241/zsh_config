@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+source $HOME/.zsh_config/zsh/env_perso
+
+source $HOME/.zsh_config/zsh/macro
+source $HOME/.zsh_config/zsh/alias
+source $HOME/.zsh_config/zsh/ohmzsh
