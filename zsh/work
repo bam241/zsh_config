@@ -1,0 +1,49 @@
+#!/bin/zsh
+
+alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
+alias cyclus_debug='export CYCLUS_NO_CATCH=1'
+
+####---------------------------------------------------####
+export CYCLUS_PATH="${APP_PATH}/cyclus"
+
+# MCNP
+
+export MCNP_PATH=${APP_PATH}/MCNP
+
+export PATH="$MCNP_PATH/MCNP_CODE/MCNP6/bin/:${PATH}"
+#export DATAPATH ="$MYHOME/base/MCNP_DATA"
+# Increase the stacksize 
+#limit stacksize unlimited
+
+# DATAPATH for MCNP cross-section data
+export DATAPATH="$HOME/work/data/mcnp_data"
+
+####---------------------------------------------------####
+# SERPENT
+export SERPENT_PATH="${APP_PATH}/Serpent/"
+export PATH="${PATH}:${SERPENT_PATH}"
+
+####---------------------------------------------------####
+#MURE
+export MURE_PATH=${APP_PATH}/MURE
+export DATADIR=${MURE_PATH}/data
+export MURE_include=${MURE_PATH}/source/include
+export MURE_ExternalPkg=${MURE_PATH}/source/external
+export MURE_lib=${MURE_PATH}/lib
+export LD_LIBRARY_PATH="${MURE_lib}:${LD_LIBRARY_PATH}"
+
+####---------------------------------------------------####
+
+
+####---------------------------------------------------####
+# CLASS package libraries
+
+export CLASS_PATH=${APP_PATH}/CLASS
+export CLASS_include=${CLASS_PATH}/source/include
+export CLASS_DB=${CLASS_PATH}/Database
+export CLASS_lib=${CLASS_PATH}/lib
+export PATH=${PATH}:${CLASS_PATH}/gui/bin
+
+####---------------------------------------------------####
+
+

@@ -1,0 +1,42 @@
+#!/bin/zsh
+
+#############################
+# variables d'environnement #
+#############################
+
+export MANPATH="/usr/local/man:$MANPATH"
+
+
+export PATH="${PATH}:/usr/local/bin"
+export PATH="${PATH}:/usr/bin:/bin:"
+export PATH="${PATH}:/usr/sbin:/sbin"
+
+
+export LC_ALL='en_US.UTF-8'
+export LANG='en_US.UTF-8'
+####---------------------------------------------------####
+
+export hostname=`hostname -s`
+
+
+export PATH="${HOME}/.local/bin:$PATH"
+export WORK_PATH="$HOME/work"
+export APP_PATH="${WORK_PATH}/app"
+
+
+export GOPATH="${APP_PATH}/go"
+export PATH="${PATH}:${GOPATH}/bin"
+
+####---------------------------------------------------####
+
+export git='git@github.com:bam241/'
+
+
+
+
+
+
+
+
+
+
