@@ -3,7 +3,7 @@
 #alias emacs='/opt/local/bin/emacs'
 alias emacs="vim"
 alias sudo="$HOME/.bin/sudo.sh"
-alias py_switch="$HOME/.zsh_config/py_switch"
+alias py_switch="$HOME/.zsh_config/macro/py_switch"
 #alias sed='gsed'
 
 
