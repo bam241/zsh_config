@@ -2,6 +2,12 @@
 
 alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
 alias cyclus_debug='export CYCLUS_NO_CATCH=1'
+#alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
+
+
+alias root="root -l"
+
+
 
 ####---------------------------------------------------####
 export CYCLUS_PATH="${APP_PATH}/cyclus"
