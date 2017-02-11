@@ -12,28 +12,28 @@ setopt HIST_IGNORE_ALL_DUPS
 
 DEFAULT_USER=mouginot
 if [[ ! `hostname -s` =~ 'submit-3' ]]; then
-  source $HOME/.zsh_config/zsh/zsh_config
+  source $HOME/.zsh_config/zsh/config
 fi
 
-source $HOME/.zsh_config/zsh/zsh_macro
+source $HOME/.zsh_config/zsh/macro
 
-source $HOME/.zsh_config/zsh/zsh_alias
+source $HOME/.zsh_config/zsh/alias
 
 
 
 if [[ `hostname -s` =~ 'CoffeeBean' || `hostname` =~ 'engr.wisc.edu' ]]; then
   export COMP='mbp'
-  source $HOME/.zsh_config/zsh/zsh_local
+  source $HOME/.zsh_config/zsh/mbp
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 elif [[ `hostname -s` =~ 'submit-3' ]]; then
   export COMP='HTC'
-  source $HOME/.zsh_config/zsh/zsh_condor
+  source $HOME/.zsh_config/zsh/chtc
 elif [[ `hostname -s` =~ 'kermit' ]]; then
   export COMP='kermit'
-  source $HOME/.zsh_config/zsh/zsh_kermit
+  source $HOME/.zsh_config/zsh/kermit
 elif [[ `hostname -s` =~ 'raspberrypi' ]]; then
   export COMP='rπ3'
-  source $HOME/.zsh_config/zsh/zsh_pi
+  source $HOME/.zsh_config/zsh/pi
 fi
 
-source $HOME/.zsh_config/zsh/zsh_ohmzsh
+source $HOME/.zsh_config/zsh/ohmzsh
