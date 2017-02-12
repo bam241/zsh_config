@@ -19,4 +19,3 @@ ln -s ~/.zsh_config/zsh/zshrc ~/.zshrc
 ln -s ~/.zsh_config/git/gitconfig ~/.gitconfig
 ln -s ~/.zsh_config/vim/vim ~/.vim
 ln -s ~/.zsh_config/vim/vimrc ~/.vimrc
-ln -s ~/.zsh_config/macro/git-change-url ~/.local/bin/
