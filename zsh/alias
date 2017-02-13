@@ -16,6 +16,8 @@ alias texclean='rm *$HOME \$HOME\$* *.log *.aux *.out *.synctex.gz'
 alias vi='vim'
 
 alias cdw='cd ${WORK_PATH}'
+alias tmux='tmux -2'
+
 
 ##########################
 ##########################
