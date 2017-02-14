@@ -1,11 +1,9 @@
 #!/bin/bash
 
 # Getting Omzsh & fonts for iterm
-git clone https://github.com/bam241/oh-my-zsh.git zsh/oh-my-zsh
-git clone https://github.com/powerline/fonts.git
-
+git submodule update --init --recursive
 git clone http://github.com/zsh-users/zsh-syntax-highlighting.git zsh/oh-my-zsh/plugins/zsh-syntax-highlighting
-git clone http://github.com/rhysd/vim-clang-format.git vim/vim-clang-format
+
 
 
 # Backing-up the existing file
