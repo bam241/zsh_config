@@ -4,6 +4,6 @@
 [submodule "fonts"]
 	path = fonts
 	url = https://github.com/powerline/fonts.git
-[submodule "vim/vim-clang-format"]
-	path = vim/vim-clang-format
+[submodule "vim/vim/vim-clang-format"]
+	path = vim/vim/vim-clang-format
 	url = http://github.com/rhysd/vim-clang-format.git
