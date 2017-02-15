@@ -6,3 +6,7 @@
 	path = zsh/oh-my-zsh
 	url = git@github.com:bam241/oh-my-zsh.git
 	branch = master
+[submodule "fonts"]
+	path = fonts
+	url = git@github.com:powerline/fonts.git
+	branch = master
