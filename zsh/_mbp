@@ -63,4 +63,7 @@ source $HOME/.zsh_config/zsh/work
 
 source $HOME/.zsh_config/zsh/macro
 source $HOME/.zsh_config/zsh/alias
+
+plugins=(osx macports docker)
+
 source $HOME/.zsh_config/zsh/ohmzsh
