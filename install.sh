@@ -19,7 +19,10 @@ git submodule update --init --recursive
 rm_or_mv ${HOME}/.zshrc
 rm_or_mv ${HOME}/.gitconfig 
 rm_or_mv ${HOME}/.vimrc
-rm_or_mv ${HOME}/.vim  
+rm_or_mv ${HOME}/.vim
+rm_or_mv ${HOME}/.tmux.conf
+rm_or_mv ${HOME}/.rootlogon.C
+
 
 # Installing the new config
 ln -s ${HOME}/.zsh_config/zsh/zshrc ${HOME}/.zshrc
