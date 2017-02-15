@@ -10,3 +10,7 @@
 	path = vim/vim/vim-clang-format
 	url = git@github.com:rhysd/vim-clang-format.git
 	branch = master
+[submodule "macros"]
+	path = macros
+	url = git@github.com:bam241/bash_macros
+	branch = master
