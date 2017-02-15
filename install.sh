@@ -1,21 +1,33 @@
 #!/bin/bash
 
+
+rm_or_mv() {
+    if [[ -L ${1} ]]
+    then
+        rm ${1}
+    else
+        mv ${1} ${1}_bak
+    fi
+}
+
+
 # Getting Omzsh & fonts for iterm
-git clone https://github.com/bam241/oh-my-zsh.git zsh/oh-my-zsh
-git clone https://github.com/powerline/fonts.git
-
-git clone http://github.com/zsh-users/zsh-syntax-highlighting.git zsh/oh-my-zsh/plugins/zsh-syntax-highlighting
-git clone http://github.com/rhysd/vim-clang-format.git vim/vim-clang-format
-
+git submodule update --init --recursive
 
 # Backing-up the existing file
-mv ~/.zshrc ~/.zshrc_bak
-mv ~/.gitconfig ~/.gitconfig_bak
-mv ~/.vimrc ~/.vimrc_bak
-mv ~/.vim ~./vim_bak
+
+rm_or_mv ${HOME}/.zshrc
+rm_or_mv ${HOME}/.gitconfig 
+rm_or_mv ${HOME}/.vimrc
+rm_or_mv ${HOME}/.vim
+rm_or_mv ${HOME}/.tmux.conf
+rm_or_mv ${HOME}/.rootlogon.C
+
 
 # Installing the new config
-ln -s ~/.zsh_config/zsh/zshrc ~/.zshrc
-ln -s ~/.zsh_config/git/gitconfig ~/.gitconfig
-ln -s ~/.zsh_config/vim/vim ~/.vim
-ln -s ~/.zsh_config/vim/vimrc ~/.vimrc
+ln -s ${HOME}/.zsh_config/zsh/zshrc ${HOME}/.zshrc
+ln -s ${HOME}/.zsh_config/git/gitconfig ${HOME}/.gitconfig
+ln -s ${HOME}/.zsh_config/vim/vim ${HOME}/.vim
+ln -s ${HOME}/.zsh_config/vim/vimrc ${HOME}/.vimrc
+ln -s ${HOME}/.zsh_config/tmux/tmux.conf ${HOME}/.tmux.conf
+ln -s ${HOME}/.zsh_config/root/rootlogon.C ${HOME}/.rootlogon.C 

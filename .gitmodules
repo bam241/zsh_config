@@ -1,0 +1,12 @@
+[submodule "zsh/oh-my-zsh"]
+	path = zsh/oh-my-zsh
+	url = git@github.com:bam241/oh-my-zsh.git
+	branch = master
+[submodule "fonts"]
+	path = fonts
+	url = git@github.com:powerline/fonts.git
+	branch = master
+[submodule "vim/vim/vim-clang-format"]
+	path = vim/vim/vim-clang-format
+	url = git@github.com:rhysd/vim-clang-format.git
+	branch = master

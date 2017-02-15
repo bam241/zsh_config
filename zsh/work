@@ -7,8 +7,6 @@ alias cyclus_debug='export CYCLUS_NO_CATCH=1'
 
 alias root="root -l"
 
-
-
 ####---------------------------------------------------####
 export CYCLUS_PATH="${APP_PATH}/cyclus"
 
