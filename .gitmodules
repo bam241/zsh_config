@@ -6,3 +6,7 @@
 	path = fonts
 	url = git@github.com:powerline/fonts.git
 	branch = master
+[submodule "vim/vim/vim-clang-format"]
+	path = vim/vim/vim-clang-format
+	url = git@github.com:rhysd/vim-clang-format.git
+	branch = master
