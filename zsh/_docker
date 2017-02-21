@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$HOME/work/app/CLASS/lib/"
+
+# PyNE Environment Settings
+
+source $HOME/.zsh_config/zsh/env_perso
+source $HOME/.zsh_config/zsh/work
+
+source $HOME/.zsh_config/zsh/macro
+source $HOME/.zsh_config/zsh/alias
+
+source $HOME/.zsh_config/zsh/ohmzsh
