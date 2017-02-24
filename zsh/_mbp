@@ -4,6 +4,7 @@
 alias sudo="$HOME/.bin/sudo.sh"
 alias py_switch="$HOME/.zsh_config/macro/py_switch"
 #alias sed='gsed'
+alias finder="open -a finder"
 
 # MacOS alias
 alias ql='quick-look'
