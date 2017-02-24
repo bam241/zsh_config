@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 rm_or_mv() {
     if [[ -L ${1} ]]
     then

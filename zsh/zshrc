@@ -26,5 +26,8 @@ elif [[ `hostname -s` =~ 'kermit' ]]; then
 elif [[ `hostname -s` =~ 'raspberrypi' ]]; then
   export COMP='rπ3'
   source $HOME/.zsh_config/zsh/_pi
+elif [ -f /.dockerenv ]; then
+  export COMP='docker'
+  source $HOME/.zsh_config/zsh/_docker
 fi
 
