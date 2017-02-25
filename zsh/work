@@ -47,6 +47,7 @@ export CLASS_include=${CLASS_PATH}/source/include
 export CLASS_DB=${CLASS_PATH}/Database
 export CLASS_lib=${CLASS_PATH}/lib
 export PATH=${PATH}:${CLASS_PATH}/gui/bin
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CLASS_lib}"
 
 ####---------------------------------------------------####
 
