@@ -1,1 +1,1 @@
-../vim-latex/plugin/imaps.vim
+../../vim-latex/plugin/imaps.vim

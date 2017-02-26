@@ -1,1 +1,1 @@
-../vim-latex/plugin/remoteOpen.vim
+../../vim-latex/plugin/remoteOpen.vim

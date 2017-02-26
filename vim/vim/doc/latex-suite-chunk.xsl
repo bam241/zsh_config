@@ -1,1 +1,1 @@
-../vim-latex/doc/latex-suite-chunk.xsl
+../../vim-latex/doc/latex-suite-chunk.xsl

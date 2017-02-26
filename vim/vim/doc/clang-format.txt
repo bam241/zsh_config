@@ -1,1 +1,1 @@
-../vim-clang-format/doc/clang-format.txt
+../../vim-clang-format/doc/clang-format.txt

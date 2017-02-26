@@ -1,1 +1,1 @@
-../vim-latex/doc/imaps.txt
+../../vim-latex/doc/imaps.txt

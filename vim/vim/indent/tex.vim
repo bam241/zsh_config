@@ -1,1 +1,1 @@
-../vim-latex/indent/tex.vim
+../../vim-latex/indent/tex.vim

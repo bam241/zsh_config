@@ -1,0 +1,1 @@
+../../vim-airline/t/highlighter.vim

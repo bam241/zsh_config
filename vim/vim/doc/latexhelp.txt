@@ -1,1 +1,1 @@
-../vim-latex/doc/latexhelp.txt
+../../vim-latex/doc/latexhelp.txt

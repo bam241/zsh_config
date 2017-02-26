@@ -1,1 +1,1 @@
-../vim-latex/doc/Makefile
+../../vim-latex/doc/Makefile

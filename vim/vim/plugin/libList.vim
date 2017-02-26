@@ -1,1 +1,1 @@
-../vim-latex/plugin/libList.vim
+../../vim-latex/plugin/libList.vim

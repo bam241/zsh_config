@@ -1,1 +1,1 @@
-../vim-latex/plugin/filebrowser.vim
+../../vim-latex/plugin/filebrowser.vim

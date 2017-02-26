@@ -1,1 +1,1 @@
-../vim-latex/doc/latex-suite.xsl
+../../vim-latex/doc/latex-suite.xsl

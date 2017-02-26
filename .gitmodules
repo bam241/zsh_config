@@ -7,10 +7,13 @@
 	url = https://github.com/powerline/fonts.git
 	branch = master
 [submodule "vim/vim/vim-clang-format"]
-	path = vim/vim/vim-clang-format
+	path = vim/vim-clang-format
 	url = https://github.com/rhysd/vim-clang-format.git
 	branch = master
 [submodule "macros"]
 	path = macros
 	url = https://github.com/bam241/bash_macros
 	branch = master
+[submodule "vim/vim-airline"]
+	path = vim/vim-airline
+	url = https://github.com/vim-airline/vim-airline

@@ -1,1 +1,1 @@
-../vim-latex/ftplugin/tex_latexSuite.vim
+../../vim-latex/ftplugin/tex_latexSuite.vim
