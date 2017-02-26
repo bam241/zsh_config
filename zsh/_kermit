@@ -3,6 +3,9 @@
 source $HOME/.zsh_config/zsh/env_perso
 source $HOME/.zsh_config/zsh/work
 
+source $HOME/.zsh_config/zsh/macro
+source $HOME/.zsh_config/zsh/alias
+
 export ROOTSYS=$APP_PATH/root-6.06.02/bld
 export PATH=${PATH}:${ROOTSYS}/bin
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$ROOTSYS/lib/"
@@ -16,10 +19,6 @@ export LD_LIBRARY_PATH="/home/mouginot/.local/lib/python2.7:${LD_LIBRARY_PATH}"
 
 
 
-
-
-source $HOME/.zsh_config/zsh/macro
-source $HOME/.zsh_config/zsh/alias
 source $HOME/.zsh_config/zsh/ohmzsh
 
 
