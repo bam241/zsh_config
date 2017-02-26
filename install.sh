@@ -21,7 +21,7 @@ rm_or_mv ${HOME}/.vimrc
 rm_or_mv ${HOME}/.vim
 rm_or_mv ${HOME}/.tmux.conf
 rm_or_mv ${HOME}/.rootlogon.C
-rm_or_mv ${HOME}/.clang_format
+rm_or_mv ${HOME}/.clang-format
 
 
 # Installing the new config
