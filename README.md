@@ -28,7 +28,7 @@ in zsh:
 - `zshrc`: corresponds to ~/.zshrc
 - `env_perso`: load some environement configuration
 - `_*`: computer specific comfiguration
-- alias: perosnnal alias configuration
-- ohmyzsh: oh-my-zsh configuration file
-- work: environement variable for work
-- macro: additional bash macros
+- `alias`: perosnnal alias configuration
+- `ohmyzsh`: oh-my-zsh configuration file
+- `work`: environement variable for work
+- `macro`: additional bash macros
