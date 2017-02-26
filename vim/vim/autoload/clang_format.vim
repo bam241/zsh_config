@@ -1,1 +1,1 @@
-../vim-clang-format/autoload/clang_format.vim
+../../vim-clang-format/autoload/clang_format.vim
