@@ -41,7 +41,7 @@ hi Conditional        guifg=#FF9900 ctermfg=208                             gui=
 hi Exception          guifg=#FF9900 ctermfg=208                             gui=none
 hi Function           guifg=#9e91ff ctermfg=141                             gui=none
 hi Define             guifg=#FF9900 ctermfg=208                             gui=none
-hi LineNr             guifg=#FFFFFF ctermfg=15                              gui=none
+hi LineNr             guifg=#FFFFFF ctermfg=117                             gui=none
 hi CursorLine         guibg=#000000 ctermbg=0                               gui=none
 
 " Vim Stuff

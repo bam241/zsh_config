@@ -21,6 +21,8 @@ augroup END
 
 
 colorscheme darkmate
+syntax enable
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
