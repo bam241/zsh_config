@@ -32,7 +32,7 @@ set expandtab
 " Be smart when using tabs ;)
 set smarttab
 
-set autoindent 
+set autoindent
 set smartindent
 
 set number
@@ -127,6 +127,13 @@ let g:airline#extensions#tabline#enabled = 1
 "
 "" Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+set ttimeoutlen=10
+let g:bufferline_echo = 0
+
 
 
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
