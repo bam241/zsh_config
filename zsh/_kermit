@@ -24,8 +24,8 @@ source $HOME/.zsh_config/zsh/ohmzsh
 
 # start a TMux session
 if [[ ! $TMUX ]]; then
-    export TERM=xterm-256color-italic
-    tmux  -u -2 source "/usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux/powerline.conf"
+    export TERM=screen-256color-italic
+    tmux  -u -2
     exit
 fi
 
