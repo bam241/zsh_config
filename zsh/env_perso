@@ -15,8 +15,10 @@ export PATH="${PATH}:${HOME}/.zsh_config/macros/"
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'
-export TERM='xterm-256color'
 
+if [[ ! $TMUX ]]; then
+    export TERM='xterm-256color'
+fi
 ####---------------------------------------------------####
 
 export hostname=`hostname -s`
