@@ -73,5 +73,5 @@ source $HOME/.zsh_config/zsh/ohmzsh
 if [[ ! $TMUX ]]; then
     export TERM=xterm-256color
     tmux -u 
-    #exit
+    exit
 fi
