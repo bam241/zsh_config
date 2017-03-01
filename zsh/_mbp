@@ -71,7 +71,7 @@ source $HOME/.zsh_config/zsh/ohmzsh
 
 # start a TMux session
 if [[ ! $TMUX ]]; then
-    export TERM=xterm-256color
+    export TERM=screen-256color-italic
     tmux -u 
     exit
 fi
