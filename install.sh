@@ -2,7 +2,7 @@
 
 rm_or_mv() {
     if [[ -L ${1} ]]; then
-        rm -rf ${1}
+        rm ${1}
     elif [[ -e $1} ]]; then
         mv ${1} ${1}_bak
     fi
