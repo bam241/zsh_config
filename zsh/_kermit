@@ -27,6 +27,6 @@ if [[ ! $TMUX ]]; then
     export POWERLINE_CONFIG="/usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux/powerline.conf"
     export TERM=screen-256color
     tmux  -u -2
-    #exit
+    exit
 fi
 
