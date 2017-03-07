@@ -38,6 +38,13 @@ export MURE_include=${MURE_PATH}/source/include
 export MURE_ExternalPkg=${MURE_PATH}/source/external
 export MURE_lib=${MURE_PATH}/lib
 export LD_LIBRARY_PATH="${MURE_lib}:${LD_LIBRARY_PATH}"
+#SMURE
+#export SMURE_PATH=${APP_PATH}/SMURE
+#export DATADIR=${SMURE_PATH}/data
+#export SMURE_include=${SMURE_PATH}/source/include
+#export SMURE_ExternalPkg=${SMURE_PATH}/source/external
+#export SMURE_lib=${SMURE_PATH}/lib
+#export LD_LIBRARY_PATH="${SMURE_lib}:${LD_LIBRARY_PATH}"
 
 ####---------------------------------------------------####
 
