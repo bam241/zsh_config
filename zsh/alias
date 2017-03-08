@@ -55,10 +55,6 @@ alias tunnel='open http://www.deezer.com/playlist/88970191 -a Firefox && ssh -D6
 alias axel="axel -a -n 10"
 
 
-eval "$(thefuck --alias)"
-
-
-
 #alias cd='gitcd'
 alias cp='cp -v'
 alias ll='ls -al'
