@@ -2,6 +2,8 @@
 
 export PATH="${PATH}:$HOME/.local/bin/"
 
+
+export GLUSTER="/mnt/gluster/mouginot"
 alias monitor='~/.local/bin/monitor'
 alias ls='ls --color'
 alias zsh='$HOME/.local/bin/zsh'
