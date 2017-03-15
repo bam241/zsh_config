@@ -21,6 +21,7 @@ export LD_LIBRARY_PATH="/home/mouginot/.local/lib/python2.7:${LD_LIBRARY_PATH}"
 
 source $HOME/.zsh_config/zsh/ohmzsh
 
+eval "$(thefuck --alias)"
 
 # start a TMux session
 if [[ ! $TMUX ]]; then

@@ -13,7 +13,7 @@ alias ql='quick-look'
 
 alias vim='/opt/local/bin/vim'
 alias vi='/opt/local/bin/vim'
-
+eval "$(thefuck --alias)"
 
 # ENV Variable
 
