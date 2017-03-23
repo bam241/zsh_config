@@ -13,7 +13,6 @@ alias ql='quick-look'
 
 alias vim='/opt/local/bin/vim'
 alias vi='/opt/local/bin/vim'
-eval "$(thefuck --alias)"
 
 # ENV Variable
 
@@ -77,3 +76,5 @@ if [[ ! $TMUX ]]; then
     tmux -u #attach work || tmux -u new -s work
     exit
 fi
+
+eval "$(thefuck --alias)"
