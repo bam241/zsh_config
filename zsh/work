@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
+#alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
 alias cyclus_debug='export CYCLUS_NO_CATCH=1'
 #alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
 
@@ -37,7 +37,7 @@ export DATADIR=${MURE_PATH}/data
 export MURE_include=${MURE_PATH}/source/include
 export MURE_ExternalPkg=${MURE_PATH}/source/external
 export MURE_lib=${MURE_PATH}/lib
-export LD_LIBRARY_PATH="${MURE_lib}:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${MURE_lib}"
 #SMURE
 #export SMURE_PATH=${APP_PATH}/SMURE
 #export DATADIR=${SMURE_PATH}/data
