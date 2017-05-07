@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-#alias emacs='/opt/local/bin/emacs'
-alias sudo="$HOME/.bin/sudo.sh"
 alias py_switch="$HOME/.zsh_config/macros/py_switch"
 #alias sed='gsed'
 alias finder="open -a finder"
