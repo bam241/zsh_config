@@ -55,7 +55,7 @@ export HDF5_ROOT=/opt/local/
 export PATH="$PATH:${HDF5_DIR}"
 
 ####---------------------------------------------------####
-
+export ROOTSYS="/opt/local/libexec/root6"
 
 source $HOME/.zsh_config/zsh/env_perso
 source $HOME/.zsh_config/zsh/work
@@ -68,12 +68,12 @@ plugins=(osx macports docker)
 source $HOME/.zsh_config/zsh/ohmzsh
 
 # start a TMux session
-if [[ ! $TMUX ]]; then
-    export POWERLINE_CONFIG="/opt/local/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/powerline/bindings/tmux/powerline.conf"
-    export TERM=screen-256color
-    
-    tmux -u #attach work || tmux -u new -s work
-    exit
-fi
+#if [[ ! $TMUX ]]; then
+#    export POWERLINE_CONFIG="/opt/local/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/powerline/bindings/tmux/powerline.conf"
+#    export TERM=screen-256color
+#    
+#    tmux -u #attach work || tmux -u new -s work
+#    exit
+#fi
 
 eval "$(thefuck --alias)"
