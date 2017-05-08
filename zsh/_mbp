@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-#alias emacs='/opt/local/bin/emacs'
-alias sudo="$HOME/.bin/sudo.sh"
 alias py_switch="$HOME/.zsh_config/macros/py_switch"
 #alias sed='gsed'
 alias finder="open -a finder"
@@ -26,18 +24,17 @@ export PATH="/opt/local/lib:/opt/local/bin:/opt/local/sbin:/opt/X11/bin:/Library
 
 
 export PATH="/Users/mouginot/Library/Python/3.5/bin:${PATH}"
-export PATH="/opt/local/Library/Frameworks/Python.framework/Versions/3.5/bin/:${PATH}"
-export LD_LIBRARY_PATH="/Users/mouginot/.local/lib/python3.5/site-packages/:${LD_LIBRARY_PATH}"
-
+export PATH="/opt/local/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export LD_LIBRARY_PATH="/Users/mouginot/.local/lib/python3.5/site-packages"
 export LD_LIBRARY_PATH="/Users/mouginot/Library/Python/3.5/lib:${LD_LIBRARY_PATH}"
 
 
 
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$HOME/work/app/CLASS/lib/"
+#export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$HOME/work/app/CLASS/lib/"
 
 # PyNE Environment Settings
 export PATH="/Users/mouginot/work/app/pyne/bin:${PATH}"
-export LD_LIBRARY_PATH="/Users/mouginot/work/app/pyne/${HOME}:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="/Users/mouginot/work/app/pyne:${LD_LIBRARY_PATH}"
 
 export PYTHONPATH="$HOME/.local/lib/python3.5/site-packages"
 
@@ -56,7 +53,7 @@ export HDF5_ROOT=/opt/local/
 export PATH="$PATH:${HDF5_DIR}"
 
 ####---------------------------------------------------####
-
+export ROOTSYS="/opt/local/libexec/root6"
 
 source $HOME/.zsh_config/zsh/env_perso
 source $HOME/.zsh_config/zsh/work
@@ -69,12 +66,12 @@ plugins=(osx macports docker)
 source $HOME/.zsh_config/zsh/ohmzsh
 
 # start a TMux session
-if [[ ! $TMUX ]]; then
-    export POWERLINE_CONFIG="/opt/local/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/powerline/bindings/tmux/powerline.conf"
-    export TERM=screen-256color
-    
-    tmux -u #attach work || tmux -u new -s work
-    exit
-fi
+#if [[ ! $TMUX ]]; then
+#    export POWERLINE_CONFIG="/opt/local/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/powerline/bindings/tmux/powerline.conf"
+#    export TERM=screen-256color
+#    
+#    tmux -u #attach work || tmux -u new -s work
+#    exit
+#fi
 
 eval "$(thefuck --alias)"
