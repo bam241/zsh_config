@@ -6,7 +6,7 @@ source $HOME/.zsh_config/zsh/work
 source $HOME/.zsh_config/zsh/macro
 source $HOME/.zsh_config/zsh/alias
 
-export ROOTSYS=$APP_PATH/root-6.06.02/bld
+#export ROOTSYS=$APP_PATH/root-6.06.02/bld
 export PATH=${PATH}:${ROOTSYS}/bin
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$ROOTSYS/lib/"
 
@@ -24,10 +24,10 @@ source $HOME/.zsh_config/zsh/ohmzsh
 eval "$(thefuck --alias)"
 
 # start a TMux session
-if [[ ! $TMUX ]]; then
-    export POWERLINE_CONFIG="/usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux/powerline.conf"
-    export TERM=screen-256color
-    tmux  -u -2
-    exit
-fi
+#if [[ ! $TMUX ]]; then
+#    export POWERLINE_CONFIG="/usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux/powerline.conf"
+#    export TERM=screen-256color
+#    tmux  -u -2
+#    exit
+#fi
 
