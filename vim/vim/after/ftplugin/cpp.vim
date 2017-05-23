@@ -1,9 +1,9 @@
 
 " Tabbing option
-setlocal expandtab
+" setlocal expandtab
 setlocal shiftwidth=2
 setlocal softtabstop=2
-autocmd FileType c,cpp,cxx,obj set tabstop=2 expandtab :
+autocmd FileType c,cpp,cxx,obj set tabstop=2
 autocmd FileType c,cpp,cxx,obj set formatoptions=l
 
 
