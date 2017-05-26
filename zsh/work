@@ -2,6 +2,9 @@
 
 #alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
 alias cyclus_debug='export CYCLUS_NO_CATCH=1'
+alias cyinstall="python install.py --clean-build -j4"
+
+
 #alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
 
 
@@ -19,7 +22,7 @@ export MCNP_PATH=${APP_PATH}/MCNP
 
 export PATH="$MCNP_PATH/MCNP_CODE/MCNP6/bin/:${PATH}"
 #export DATAPATH ="$MYHOME/base/MCNP_DATA"
-# Increase the stacksize 
+# Increase the stacksize
 #limit stacksize unlimited
 
 # DATAPATH for MCNP cross-section data
