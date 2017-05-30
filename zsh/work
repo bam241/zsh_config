@@ -2,7 +2,6 @@
 
 #alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
 alias cyclus_debug='export CYCLUS_NO_CATCH=1'
-alias cyinstall="python install.py --clean-build -j4"
 
 
 #alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
