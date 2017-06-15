@@ -15,7 +15,7 @@ alias cdp='cd ${WORK_PATH}/play'
 ####---------------------------------------------------####
 
 export git='git@github.com:bam241/'
-export gitlab="git@gitlab.in2p3.fr:BaM"
+export lab="git@gitlab.in2p3.fr:BaM"
 ####---------------------------------------------------####
 
 export WORK_PATH="$HOME/work"
