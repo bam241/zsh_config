@@ -13,7 +13,7 @@ setopt HIST_IGNORE_ALL_DUPS
 DEFAULT_USER=mouginot
 
 
-if [[ `hostname -s` =~ 'CoffeeBean' || `hostname` =~ 'engr.wisc.edu' ]]; then
+if [[ `hostname -s` =~ 'CoffeeBean' || `hostname` =~ 'engr.wisc.edu' || `hostname` =~ 'dhcp-v007-218' ]]; then
   export COMP='mbp'
   source $HOME/.zsh_config/zsh/_mbp
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
