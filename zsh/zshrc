@@ -1,5 +1,4 @@
 #/bin/zsh
-
 # Killer: share history between multiple shells
 setopt SHARE_HISTORY
 #
