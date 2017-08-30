@@ -1,1 +1,2 @@
-../vim-clang-format/VimFlavor
+flavor 'rhysd/vim-vspec-matchers'
+flavor 'kana/vim-operator-user'

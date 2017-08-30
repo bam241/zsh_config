@@ -17,7 +17,7 @@ if [[ `hostname -s` =~ 'CoffeeBean' || `hostname` =~ 'engr.wisc.edu' ]]; then
   export COMP='mbp'
   source $HOME/.zsh_config/zsh/_mbp
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-elif [[ `hostname -s` =~ 'submit-3' ]]; then
+elif [[ `hostname -s` =~ 'submit-3' || `hostname -s` =~ 'submit-4' ]]; then
   export COMP='HTC'
   source $HOME/.zsh_config/zsh/_chtc
 elif [[ `hostname -s` =~ 'kermit' ]]; then

@@ -10,6 +10,7 @@ alias zsh='$HOME/.local/bin/zsh'
 alias q='condor_q -nobatch'
 alias sub='condor_submit'
 alias cq='condor_rm'
+alias cdg="cd $GLUSTER"
 
 source $HOME/.zsh_config/zsh/env_perso
 source $HOME/.zsh_config/zsh/macro
