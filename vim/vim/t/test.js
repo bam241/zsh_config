@@ -1,1 +1,1 @@
-function(){console.log('this');console.log('is');console.log('test')}
+../../vim-clang-format/t/test.js
