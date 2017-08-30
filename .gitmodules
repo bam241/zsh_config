@@ -17,3 +17,9 @@
 [submodule "vim/vim-airline"]
 	path = vim/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "fontpatcher"]
+	path = fontpatcher
+	url = git@github.com:powerline/fontpatcher.git
+[submodule "vim/vim-cpp-enhanced-highlight"]
+	path = vim/vim-cpp-enhanced-highlight
+	url = https://github.com/octol/vim-cpp-enhanced-highlight

@@ -11,7 +11,7 @@ export PATH="${PATH}:/usr/local/bin"
 export PATH="${PATH}:/usr/bin:/bin"
 export PATH="${PATH}:/usr/sbin:/sbin"
 export PATH="${PATH}:${HOME}/.zsh_config/macros/"
-
+export PATH="${HOME}/.local/bin:$PATH"
 
 export LC_ALL='en_US.UTF-8'
 export LANG='en_US.UTF-8'
@@ -30,17 +30,6 @@ fi
 export hostname=`hostname -s`
 
 
-export PATH="${HOME}/.local/bin:$PATH"
-export WORK_PATH="$HOME/work"
-export APP_PATH="${WORK_PATH}/app"
-
-
-export GOPATH="${APP_PATH}/go"
-export PATH="${PATH}:${GOPATH}/bin"
-
-####---------------------------------------------------####
-
-export git='git@github.com:bam241/'
 
 
 
