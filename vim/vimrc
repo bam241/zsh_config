@@ -18,10 +18,16 @@ augroup resCur
   autocmd BufReadPost * call setpos(".", getpos("'\""))
 augroup END
 
-
-
 colorscheme darkmate
 syntax enable
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Helping with typo :)
+command W w
+command Wq wq
+command Q q
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
