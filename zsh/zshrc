@@ -12,11 +12,8 @@ setopt HIST_IGNORE_ALL_DUPS
 DEFAULT_USER=mouginot
 
 
-if [[ `hostname -s` =~ 'mouginotLaptop' || `hostname -s` =~ 'CoffeeBean' || `hostname` =~ 'engr.wisc.edu' || `hostname` =~ 'dhcp-v007-218' ]]; then
-  export COMP='mbp'
-  source $HOME/.zsh_config/zsh/_mbp
-  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-elif [[ `hostname -s` =~ 'submit-3' ]]; then
+#if [[ `hostname -s` =~ 'mouginotLaptop' || `hostname -s` =~ 'CoffeeBean' || `hostname` =~ 'engr.wisc.edu' || `hostname` =~ 'dhcp-v007-218' ]]; then
+if [[ `hostname -s` =~ 'submit-3' ]]; then
   export COMP='HTC'
   source $HOME/.zsh_config/zsh/_chtc
 elif [[ `hostname -s` =~ 'submit-4' ]]; then
@@ -31,5 +28,9 @@ elif [[ `hostname -s` =~ 'raspberrypi' ]]; then
 elif [ -f /.dockerenv ]; then
   export COMP='docker'
   source $HOME/.zsh_config/zsh/_docker
+else
+  export COMP='mbp'
+  source $HOME/.zsh_config/zsh/_mbp
+  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 fi
 
