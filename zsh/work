@@ -21,6 +21,7 @@ export lab="git@gitlab.in2p3.fr:BaM"
 export WORK_PATH="$HOME/work"
 export APP_PATH="${WORK_PATH}/app"
 export CYCLUS_PATH="${APP_PATH}/cyclus"
+export LD_LIBRARY_PATH="/opt/local/lib"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${HOME}/.local/lib"
 
 # Go
