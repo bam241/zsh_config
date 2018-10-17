@@ -29,6 +29,11 @@ export GOPATH="${APP_PATH}/go"
 export PATH="${PATH}:${GOPATH}/bin"
 
 
+# MOAB
+export PATH=$PATH:$APP_PATH/DAGMC_bld/MOAB/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$APP_PATH/DAGMC_bld/MOAB/lib
+
+
 # MCNP
 
 export MCNP_PATH=${APP_PATH}/MCNP
