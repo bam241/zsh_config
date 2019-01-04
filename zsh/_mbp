@@ -37,6 +37,7 @@ export PATH="/opt/local/Library/Frameworks/Python.framework/Versions/3.5/bin:${P
 #export LD_LIBRARY_PATH="/Users/mouginot/work/app/pyne:${LD_LIBRARY_PATH}"
 
 export PYTHONPATH="$HOME/.local/lib/python3.5/site-packages"
+export PYTHONPATH="${HOME}/work/app/DAGMC_bld/MOAB/lib/python3.5/site-packages:${PYTHONPATH}"
 
 
 
