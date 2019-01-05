@@ -31,6 +31,9 @@ elif [[ `hostname -s` =~ 'tux' ]]; then
 elif [ -f /.dockerenv ]; then
   export COMP='docker'
   source $HOME/.zsh_config/zsh/_docker
+elif [[ `hostname -s` =~ 'ip-172-31-27-180' ]]; then
+  export COM='AWS'
+  source $HOME/.zsh_config/zsh/_kermit
 else
   export COMP='mbp'
   source $HOME/.zsh_config/zsh/_mbp
