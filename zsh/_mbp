@@ -76,3 +76,4 @@ source $HOME/.zsh_config/zsh/ohmzsh
 #fi
 
 eval "$(thefuck --alias)"
+source $HOME/.zsh_config/zsh/_swc
