@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AdjustWindowForFontSizeChange</key>
+	<false/>
 	<key>AllowClipboardAccess</key>
 	<true/>
 	<key>AlternateMouseScroll</key>
@@ -736,7 +738,7 @@
 	<key>DimBackgroundWindows</key>
 	<true/>
 	<key>DimOnlyText</key>
-	<false/>
+	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
 	<key>EnableDivisionView</key>
@@ -752,6 +754,8 @@
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
+	<true/>
+	<key>MaxVertically</key>
 	<true/>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 1</string>
@@ -806,7 +810,7 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 22 618 521 0 0 1920 1080 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>184 361 796 486 0 0 1920 1080 </string>
+	<string>177 274 796 486 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>960 0 957 1080 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -1621,6 +1625,10 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>D34A7FB1-B6F1-471D-B616-9976C9920B72</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1684,13 +1692,19 @@
 	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
+	<key>ShowMetalFPSmeter</key>
+	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
+	<key>SmartPlacement</key>
+	<true/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.15879407051282052</real>
+	<real>0.3091346153846154</real>
 	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>TabStyle</key>
+	<integer>1</integer>
+	<key>TabStyleWithAutomaticOption</key>
 	<integer>1</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
