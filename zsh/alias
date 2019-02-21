@@ -6,7 +6,8 @@ alias source_alias="source $HOME/.zsh_config/zsh/alias"
 alias source_config="source $HOME/.zsh_config/zsh/env_perso"
 
 alias cdz="cd ~/.zsh_config"
-alias cda="cd ${APP_PATH}"
+
+#alias cda="cd ${APP_PATH}"
 
 ######################
 ##Alias Perso/Boulot##

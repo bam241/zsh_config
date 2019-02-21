@@ -7,25 +7,6 @@ function =
 alias calcul="="
 
 
-#function c_git
-#{
-#
-#  if [ $# -eq 1 ]; then
-#    curl -u 'bam241' https://api.github.com/user/repos -d '{"name":"'$@'"}'
-#    git clone git@github.com:bam241/${@}.git
-#    cd ${@}
-#    git-change-url --to-ssh
-#  else
-#    if [ ! -d ".git" ]; then
-#      git init
-#    fi
-#    curl -u 'bam241' https://api.github.com/user/repos -d '{"name":"'${PWD##*/}'"}'
-#    git remote add origin git@github.com:bam241/${PWD##*/}.git
-#    git-change-url --to-ssh
-#  fi
-#
-#
-#}
 
 function gitcd () 
 {
@@ -43,4 +24,4 @@ function cyclus_release()
   export CYMETRIC_DIR=$CYCLUS_PATH/cymetric
 }
 
-
+source cda
