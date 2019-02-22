@@ -18,10 +18,16 @@ augroup resCur
   autocmd BufReadPost * call setpos(".", getpos("'\""))
 augroup END
 
-
-
 colorscheme darkmate
 syntax enable
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Helping with typo :)
+command W w
+command Wq wq
+command Q q
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
@@ -114,13 +120,9 @@ autocmd FileType c,cpp,cxx,objc map <buffer><Leader>x <Plug>(operator-clang-form
 nmap <Leader>C :ClangFormatAutoToggle<CR>
 autocmd FileType c,cpp,cxx,ojbc setlocal formatprg=clang-format\ -
 
-"python3 from powerline.vim import setup as powerline_setup
-"python3 powerline_setup()
-"python3 del powerline_setup
-"
-"set rtp+=/opt/local/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/powerline/bindings/vim/
-"
-"" Always show statusline
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" Statusline
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
@@ -135,6 +137,13 @@ set ttimeoutlen=10
 let g:bufferline_echo = 0
 
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" tabswitch
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
+
+
+
+autocmd BufNewFile,BufEnter *.xsh :setlocal filetype=python

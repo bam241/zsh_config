@@ -1,43 +1,57 @@
 #!/bin/zsh
 
-alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
+#alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
 alias cyclus_debug='export CYCLUS_NO_CATCH=1'
+#export DYLD_FALLBACK_LIBRARY_PATH="/Users/mouginot/.local/lib/cyclus"
+
 #alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
 
 
 alias root="root -l"
 
-alias cdw="cd ${WORK_PATH}"
-alias cdp="cd ${WORK_PATH}/play"
+alias cdw='cd ${WORK_PATH}'
+alias cdp='cd ${WORK_PATH}/play'
 
 ####---------------------------------------------------####
+
+export git='git@github.com:bam241/'
+export lab="git@gitlab.in2p3.fr:BaM"
+####---------------------------------------------------####
+
+export WORK_PATH="$HOME/work"
+export APP_PATH="${WORK_PATH}/app"
 export CYCLUS_PATH="${APP_PATH}/cyclus"
+export LD_LIBRARY_PATH="/opt/local/lib"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${HOME}/.local/lib"
+
+# Go
+export GOPATH="${APP_PATH}/go"
+export PATH="${PATH}:${GOPATH}/bin"
+
+
+# MOAB
+export PATH=$PATH:$APP_PATH/DAGMC_bld/MOAB/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$APP_PATH/DAGMC_bld/MOAB/lib
+
 
 # MCNP
 
 export MCNP_PATH=${APP_PATH}/MCNP
 
 export PATH="$MCNP_PATH/MCNP_CODE/MCNP6/bin/:${PATH}"
-#export DATAPATH ="$MYHOME/base/MCNP_DATA"
-# Increase the stacksize 
-#limit stacksize unlimited
-
-# DATAPATH for MCNP cross-section data
 export DATAPATH="$HOME/work/data/mcnp_data"
 
-####---------------------------------------------------####
 # SERPENT
 export SERPENT_PATH="${APP_PATH}/Serpent/"
 export PATH="${PATH}:${SERPENT_PATH}"
 
-####---------------------------------------------------####
 #MURE
 export MURE_PATH=${APP_PATH}/MURE
 export DATADIR=${MURE_PATH}/data
 export MURE_include=${MURE_PATH}/source/include
 export MURE_ExternalPkg=${MURE_PATH}/source/external
 export MURE_lib=${MURE_PATH}/lib
-export LD_LIBRARY_PATH="${MURE_lib}:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${MURE_lib}"
 #SMURE
 #export SMURE_PATH=${APP_PATH}/SMURE
 #export DATADIR=${SMURE_PATH}/data
@@ -46,14 +60,11 @@ export LD_LIBRARY_PATH="${MURE_lib}:${LD_LIBRARY_PATH}"
 #export SMURE_lib=${SMURE_PATH}/lib
 #export LD_LIBRARY_PATH="${SMURE_lib}:${LD_LIBRARY_PATH}"
 
-####---------------------------------------------------####
-
-
-####---------------------------------------------------####
 # CLASS package libraries
 
 export CLASS_PATH=${APP_PATH}/CLASS
-export CLASS_include=${CLASS_PATH}/source/include
+export CLASS_include="${CLASS_PATH}/source/include"
+export CLASS_flag="-I${CLASS_include} -I${CLASS_PATH}/source/Model/Irradiation -I${CLASS_PATH}/source/Model/XS -I${CLASS_PATH}/source/Model/Equivalence"
 export CLASS_DB=${CLASS_PATH}/Database
 export CLASS_lib=${CLASS_PATH}/lib
 export PATH=${PATH}:${CLASS_PATH}/gui/bin

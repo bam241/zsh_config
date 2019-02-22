@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+set tmp_comd="docker ps |grep bam241 |cut -d' ' -f1"
+alias swc_term="reset && docker exec -it `${tmp_comd}` bash"
+alias swc_start="reset && docker run --user mouginot -it bam241/swc:18.04"

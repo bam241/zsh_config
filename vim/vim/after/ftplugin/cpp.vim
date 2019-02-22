@@ -1,9 +1,9 @@
 
 " Tabbing option
-setlocal expandtab
+" setlocal expandtab
 setlocal shiftwidth=2
 setlocal softtabstop=2
-autocmd FileType c,cpp,cxx,obj set tabstop=2 expandtab :
+autocmd FileType c,cpp,cxx,obj set tabstop=2
 autocmd FileType c,cpp,cxx,obj set formatoptions=l
 
 
@@ -29,8 +29,12 @@ nmap <Leader>C :ClangFormatAutoToggle<CR>
 
 "Syntax highlight
 let g:cpp_class_scope_highlight = 1
-let g:cpp_experimental_simple_template_highlight = 1
-let g:cpp_experimental_template_highlight = 1
-let g:cpp_class_scope_highlight = 1
 let g:cpp_concepts_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+
+" slower
+ let g:cpp_experimental_simple_template_highlight = 1
+" faster
+" let g:cpp_experimental_template_highlight = 1
 
