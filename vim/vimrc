@@ -68,8 +68,11 @@ autocmd FileType gnuplot set formatoptions=l
 autocmd Filetype html,xml,xsl let g:closetag_html_style=1
 autocmd Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
 
-au FileType python setlocal formatprg=autopep8\ -
 
+
+autocmd BufNewFile,BufEnter *.xsh :setlocal filetype=python
+au FileType python setlocal formatprg=autopep8\ -
+au FileType cython setlocal formatprg=autopep8\ -
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Over command plugin: visual search and replace
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -144,6 +147,3 @@ let g:bufferline_echo = 0
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 
-
-
-autocmd BufNewFile,BufEnter *.xsh :setlocal filetype=python
