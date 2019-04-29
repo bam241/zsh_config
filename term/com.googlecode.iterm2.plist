@@ -906,9 +906,9 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>547 204 937 514 0 0 1680 1050 </string>
+	<string>177 270 770 429 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>960 0 957 1080 0 0 1920 1080 </string>
+	<string>0 0 957 1080 0 0 1920 1080 </string>
 	<key>NeverWarnAboutShortLivedSessions_2988106F-8780-452B-8306-42D3426F32C9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_2988106F-8780-452B-8306-42D3426F32C9_selection</key>
@@ -1695,6 +1695,8 @@
 			<string>/Users/mouginot</string>
 		</dict>
 	</array>
+	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
@@ -1755,7 +1757,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-04-25T13:04:42Z</date>
+	<date>2019-04-29T21:04:39Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1769,7 +1771,7 @@
 	<key>SmartPlacement</key>
 	<true/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.3091346153846154</real>
+	<real>0.16280048076923076</real>
 	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>TabStyle</key>
