@@ -24,4 +24,4 @@ function cyclus_release()
   export CYMETRIC_DIR=$CYCLUS_PATH/cymetric
 }
 
-source cda
+source cd_def
