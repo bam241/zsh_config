@@ -9,8 +9,6 @@ alias cyclus_debug='export CYCLUS_NO_CATCH=1'
 
 alias root="root -l"
 
-alias cdw='cd ${WORK_PATH}'
-alias cdp='cd ${WORK_PATH}/play'
 
 ####---------------------------------------------------####
 
@@ -24,9 +22,15 @@ export CYCLUS_PATH="${APP_PATH}/cyclus"
 export LD_LIBRARY_PATH="/opt/local/lib"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${HOME}/.local/lib"
 
+
 # Go
 export GOPATH="${APP_PATH}/go"
 export PATH="${PATH}:${GOPATH}/bin"
+
+
+# MOAB
+export PATH=$PATH:$APP_PATH/DAGMC_bld/MOAB/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$APP_PATH/DAGMC_bld/MOAB/lib
 
 
 # MCNP

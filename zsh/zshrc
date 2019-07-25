@@ -25,12 +25,23 @@ elif [[ `hostname -s` =~ 'kermit' ]]; then
 elif [[ `hostname -s` =~ 'raspberrypi' ]]; then
   export COMP='rπ3'
   source $HOME/.zsh_config/zsh/_pi
+elif [[ `hostname -s` =~ 'tux' ]]; then
+  export COMP='cae'
+  source $HOME/.zsh_config/zsh/_chtc
 elif [ -f /.dockerenv ]; then
   export COMP='docker'
   source $HOME/.zsh_config/zsh/_docker
+elif [[ `hostname -s` =~ 'ip-172-31-27-180' ]]; then
+  export COM='AWS'
+  source $HOME/.zsh_config/zsh/_kermit
+elif [[ `hostname -s` =~ 'iMac' ]]; then 
+  export COMP='iMac'
+  source $HOME/.zsh_config/zsh/_mbp
+  export CORE_MAKE=4
+  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 else
   export COMP='mbp'
   source $HOME/.zsh_config/zsh/_mbp
+  export CORE_MAKE=4
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 fi
-

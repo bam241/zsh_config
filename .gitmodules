@@ -23,3 +23,6 @@
 [submodule "vim/vim-cpp-enhanced-highlight"]
 	path = vim/vim-cpp-enhanced-highlight
 	url = https://github.com/octol/vim-cpp-enhanced-highlight
+[submodule "vim/vim-cython"]
+	path = vim/vim-cython
+	url = git@github.com:tshirtman/vim-cython.git
