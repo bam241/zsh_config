@@ -9,7 +9,6 @@ alias cyclus_debug='export CYCLUS_NO_CATCH=1'
 
 alias root="root -l"
 
-alias cdp='cdw play'
 
 ####---------------------------------------------------####
 
