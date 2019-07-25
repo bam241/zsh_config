@@ -5,7 +5,7 @@ alias source_zshrc="source $HOME/.zshrc"
 alias source_alias="source $HOME/.zsh_config/zsh/alias"
 alias source_config="source $HOME/.zsh_config/zsh/env_perso"
 
-
+alias ssh_unlock="security unlock-keychain"
 
 ######################
 ##Alias Perso/Boulot##
