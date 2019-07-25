@@ -7,8 +7,12 @@ source $HOME/.zsh_config/zsh/macro
 source $HOME/.zsh_config/zsh/alias
 
 #export ROOTSYS=$APP_PATH/root-6.06.02/bld
-export PATH=${PATH}:${ROOTSYS}/bin
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$ROOTSYS/lib/"
+#export PATH=${PATH}:${ROOTSYS}/bin
+#export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$ROOTSYS/lib/"
+cd /usr/local/bin
+source /usr/local/bin/thisroot.sh
+cd
+
 
 export PATH="/Users/mouginot/work/app/cyclus/pyne/bin:${PATH}"
 export LD_LIBRARY_PATH="/Users/mouginot/work/app/cyclus/pyne/:${LD_LIBRARY_PATH}"
