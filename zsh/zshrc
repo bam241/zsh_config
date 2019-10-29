@@ -19,8 +19,8 @@ if [[ `hostname -s` =~ 'submit-3' ]]; then
 elif [[ `hostname -s` =~ 'submit-4' ]]; then
   export COMP='HTC-4'
   source $HOME/.zsh_config/zsh/_chtc
-elif [[ `hostname -s` =~ 'kermit' ]]; then
-  export COMP='kermit'
+elif [[ `hostname -s` =~ 'humblemenhir' ]]; then
+  export COMP='menhir'
   source $HOME/.zsh_config/zsh/_kermit
 elif [[ `hostname -s` =~ 'raspberrypi' ]]; then
   export COMP='rπ3'
