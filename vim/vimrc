@@ -92,6 +92,11 @@ function! VisualFindAndReplaceWithSelection() range
 endfunction
 xnoremap <Leader>s :call VisualFindAndReplaceWithSelection()<CR>
 
+""" Auto-unfold all
+set foldlevelstart=99
+"set foldlevel=99
+set foldmethod=indent
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Latex plugin: configureation
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -100,7 +105,7 @@ let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode $*'
 let g:Tex_ViewRule_pdf = 'open'
 
-
+" Should disable folding in here
 let Tex_FoldedSections=""
 let Tex_FoldedEnvironments=""
 let Tex_FoldedMisc=""
