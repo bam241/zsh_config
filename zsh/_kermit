@@ -52,5 +52,6 @@ if [[ ! $TMUX ]]; then
       open_session $x
     done
 fi
+unset shwordsplit
 
 #alias tmux="tmux source-file ~/.tmux.conf"
