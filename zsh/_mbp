@@ -8,6 +8,7 @@ alias finder="open -a finder"
 alias ql='quick-look'
 alias ql='quick-look'
 
+alias ssh='TERM=xterm-256color ssh'
 
 alias vim='/opt/local/bin/vim'
 alias vi='/opt/local/bin/vim'

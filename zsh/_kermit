@@ -6,20 +6,15 @@ source $HOME/.zsh_config/zsh/work
 source $HOME/.zsh_config/zsh/macro
 source $HOME/.zsh_config/zsh/alias
 
-#export ROOTSYS=$APP_PATH/root-6.06.02/bld
-#export PATH=${PATH}:${ROOTSYS}/bin
-#export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$ROOTSYS/lib/"
 cd /usr/local/bin
 source /usr/local/bin/thisroot.sh
 cd
 
 
-export PATH="/Users/mouginot/work/app/cyclus/pyne/bin:${PATH}"
-export LD_LIBRARY_PATH="/Users/mouginot/work/app/cyclus/pyne/:${LD_LIBRARY_PATH}"
 
 
-export PATH="/home/mouginot/.local/lib/bin:${PATH}"
-export LD_LIBRARY_PATH="/home/mouginot/.local/lib/python2.7:${LD_LIBRARY_PATH}"
+export PATH="/home/mouginot/.local/bin:${PATH}"
+#export LD_LIBRARY_PATH="/home/mouginot/.local/lib/python3.6:${LD_LIBRARY_PATH}"
 
 
 
@@ -28,12 +23,35 @@ source $HOME/.zsh_config/zsh/ohmzsh
 eval "$(thefuck --alias)"
 
 # start a TMux session
-function tmux_start
-{
-    if [[ ! $TMUX ]]; then
-        export POWERLINE_CONFIG="/usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux/powerline.conf"
-        export TERM=screen-256color
-        tmux  -CC
-    fi
-}
-alias tmux="tmux_start"
+export POWERLINE_CONFIG="/usr/local/lib/python3.6/dist-packages/powerline/bindings/tmux/powerline.conf"
+export TERM=screen-256color
+export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
+
+
+#
+set -o shwordsplit
+if [[ ! $TMUX ]]; then
+    SESSIONS="PyNE Cyclus TechX main"
+
+    function has-session {
+      tmux has-session -t $1 2>/dev/null
+    }
+
+    function open_session
+    {
+      if [ "$?" -eq 1 ] ; then
+        tmux new-session -d -s $1
+      fi
+    }
+
+    #
+    #MAIN 
+    for x in $SESSIONS
+    do
+      has-session $x
+      open_session $x
+    done
+fi
+unset shwordsplit
+
+#alias tmux="tmux source-file ~/.tmux.conf"

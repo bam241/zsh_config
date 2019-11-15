@@ -5,14 +5,13 @@ alias cyclus_debug='export CYCLUS_NO_CATCH=1'
 #export DYLD_FALLBACK_LIBRARY_PATH="/Users/mouginot/.local/lib/cyclus"
 
 #alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
-
 source smux
 
 alias root="root -l"
 
 
 ####---------------------------------------------------####
-
+alias git-empty='git commit --allow-empty -m "Trigger notification"'
 export git='git@github.com:bam241/'
 export lab="git@gitlab.in2p3.fr:BaM"
 ####---------------------------------------------------####
