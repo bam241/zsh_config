@@ -6,6 +6,7 @@ alias cyclus_debug='export CYCLUS_NO_CATCH=1'
 
 #alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
 
+source smux
 
 alias root="root -l"
 
