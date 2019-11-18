@@ -23,15 +23,12 @@ source $HOME/.zsh_config/zsh/ohmzsh
 eval "$(thefuck --alias)"
 
 # start a TMux session
-export POWERLINE_CONFIG="/usr/local/lib/python3.6/dist-packages/powerline/bindings/tmux/powerline.conf"
+export POWERLINE_CONFIG="/home/mouginot/.local/lib/python3.6/site-packages/powerline/bindings/tmux/powerline.conf"
 export TERM=screen-256color
-export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
-
-
 #
 set -o shwordsplit
 if [[ ! $TMUX ]]; then
-    SESSIONS="PyNE Cyclus TechX main"
+    SESSIONS="PyNE Cyclus TechX DAGMC main"
 
     function has-session {
       tmux has-session -t $1 2>/dev/null
