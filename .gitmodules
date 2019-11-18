@@ -29,3 +29,6 @@
 [submodule "vim/vim-latex"]
 	path = vim/vim-latex
 	url = git@github.com:vim-latex/vim-latex.git
+[submodule "tmux/tmux-yank"]
+	path = tmux/tmux-yank
+	url = https://github.com/tmux-plugins/tmux-yank
