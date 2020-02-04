@@ -28,12 +28,13 @@ export TERM=screen-256color
 #
 set -o shwordsplit
 if [[ ! $TMUX ]]; then
-    SESSIONS="PyNE Cyclus TechX DAGMC play main"
+    
+    SESSIONS="PyNE Cyclus TechX DAGMC play main mini"
 
     function has-session {
       tmux has-session -t $1 2>/dev/null
     }
-
+    
     function open_session
     {
       if [ "$?" -eq 1 ] ; then
