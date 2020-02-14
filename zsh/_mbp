@@ -61,6 +61,8 @@ plugins=(osx macports docker)
 source $HOME/.zsh_config/zsh/ohmzsh
 export POWERLINE_CONFIG="$HOME/Library/Python/${PY_VERSION}/lib/python/site-packages/powerline/bindings/tmux/powerline.conf"
 
+alias jup_link="ssh -CNL localhost:5678:localhost:5678 humblemenhir"
+
 # start a TMux session
 #if [[ ! $TMUX ]]; then
 #    export POWERLINE_CONFIG="/opt/local/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/powerline/bindings/tmux/powerline.conf"

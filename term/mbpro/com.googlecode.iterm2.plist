@@ -753,6 +753,10 @@
 	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<false/>
+	<key>DoubleReportScrollWheel</key>
+	<false/>
 	<key>EnableDivisionView</key>
 	<true/>
 	<key>EnableProxyIcon</key>
@@ -942,7 +946,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>495 201 937 514 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1917 1074 0 0 1920 1080 </string>
+	<string>999 380 712 305 0 0 1920 1080 </string>
 	<key>NeverWarnAboutShortLivedSessions_2988106F-8780-452B-8306-42D3426F32C9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_2988106F-8780-452B-8306-42D3426F32C9_selection</key>
@@ -1934,6 +1938,47 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>background color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>0.0</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.0</real>
+									<key>Red Component</key>
+									<real>0.0</real>
+								</dict>
+								<key>default text color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>0.0</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.0</real>
+									<key>Red Component</key>
+									<real>1</real>
+								</dict>
+								<key>font</key>
+								<string>NotoMonoForPowerline 8</string>
+								<key>separator color 2</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>0.0</real>
+									<key>Blue Component</key>
+									<real>0.95697027444839478</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.95697027444839478</real>
+									<key>Red Component</key>
+									<real>0.970550537109375</real>
+								</dict>
 							</dict>
 						</dict>
 					</dict>
@@ -3207,13 +3252,13 @@ tmux.Detach</string>
 						<key>Alpha Component</key>
 						<real>1</real>
 						<key>Blue Component</key>
-						<real>0.0</real>
+						<real>1</real>
 						<key>Color Space</key>
 						<string>sRGB</string>
 						<key>Green Component</key>
-						<real>0.0</real>
+						<real>0.971160888671875</real>
 						<key>Red Component</key>
-						<real>1</real>
+						<real>0.0</real>
 					</dict>
 					<key>font</key>
 					<string>NotoMonoForPowerline 8</string>
@@ -3282,13 +3327,13 @@ tmux.Detach</string>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3357,13 +3402,13 @@ tmux.Detach</string>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3418,6 +3463,47 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>background color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>0.0</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.0</real>
+									<key>Red Component</key>
+									<real>0.0</real>
+								</dict>
+								<key>default text color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>1</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.971160888671875</real>
+									<key>Red Component</key>
+									<real>0.0</real>
+								</dict>
+								<key>font</key>
+								<string>NotoMonoForPowerline 8</string>
+								<key>separator color 2</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>0.0</real>
+									<key>Blue Component</key>
+									<real>0.95697027444839478</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.95697027444839478</real>
+									<key>Red Component</key>
+									<real>0.970550537109375</real>
+								</dict>
 							</dict>
 						</dict>
 					</dict>
@@ -3472,13 +3558,13 @@ tmux.Detach</string>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3549,13 +3635,13 @@ tmux.Detach</string>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3622,13 +3708,13 @@ tmux.Detach</string>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3693,13 +3779,13 @@ tmux.Detach</string>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3766,13 +3852,13 @@ tmux.Detach</string>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3839,13 +3925,13 @@ tmux.Detach</string>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3925,8 +4011,8 @@ tmux.Detach</string>
 		<string>3.3.5</string>
 		<string>3.3.7</string>
 		<string>3.2.9</string>
-		<string>3.3.0</string>
 		<string>3.3.2</string>
+		<string>3.3.0</string>
 	</array>
 	<key>NoSyncAutoBurialReveal</key>
 	<true/>
@@ -3949,14 +4035,14 @@ tmux.Detach</string>
 		<key>screenFrame</key>
 		<string>{{-1920, 0}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{-1476, 770}</string>
+		<string>{-1283, 812}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>55F7C1B2-621F-4B50-8109-31F7C7092116</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>117</integer>
+	<integer>119</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -4813,13 +4899,13 @@ tmux.Detach</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-11T14:58:08Z</date>
+	<date>2020-02-12T15:08:48Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SeparateStatusBarsPerPane</key>
-	<false/>
+	<true/>
 	<key>ShowBookmarkName</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
