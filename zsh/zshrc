@@ -34,7 +34,7 @@ elif [ -f /.dockerenv ]; then
 elif [[ `hostname -s` =~ 'ip-172-31-27-180' ]]; then
   export COM='AWS'
   source $HOME/.zsh_config/zsh/_kermit
-elif [[ `hostname -s` =~ 'iMac' ]]; then 
+elif [[ `hostname -s` =~ 'BrightMonolith' ]]; then 
   export COMP='iMac'
   source $HOME/.zsh_config/zsh/_mbp
   export CORE_MAKE=4

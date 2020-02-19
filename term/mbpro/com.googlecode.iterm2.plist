@@ -10,6 +10,8 @@
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -25,6 +27,10 @@
 	<key>ClosingTmuxTabKillsTmuxWindows</key>
 	<true/>
 	<key>ClosingTmuxTabKillsTmuxWindows_selection</key>
+	<integer>1</integer>
+	<key>ClosingTmuxWindowKillsTmuxWindows</key>
+	<true/>
+	<key>ClosingTmuxWindowKillsTmuxWindows_selection</key>
 	<integer>1</integer>
 	<key>CopyLastNewline</key>
 	<true/>
@@ -747,6 +753,10 @@
 	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<false/>
+	<key>DoubleReportScrollWheel</key>
+	<false/>
 	<key>EnableDivisionView</key>
 	<true/>
 	<key>EnableProxyIcon</key>
@@ -930,13 +940,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>-1045 330 445 205 -1920 0 1920 1080 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>-1546 819 400 129 -1920 0 1920 1080 </string>
+	<string>2680 713 400 129 1920 0 1920 1080 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>650 516 620 392 0 0 1920 1080 </string>
+	<string>-1270 516 620 392 -1920 0 1920 1080 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>495 201 937 514 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2880 6 957 1074 1920 0 1920 1080 </string>
+	<string>999 380 712 305 0 0 1920 1080 </string>
 	<key>NeverWarnAboutShortLivedSessions_2988106F-8780-452B-8306-42D3426F32C9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_2988106F-8780-452B-8306-42D3426F32C9_selection</key>
@@ -1371,6 +1381,14 @@
 					<integer>11</integer>
 					<key>Text</key>
 					<string>0x7f</string>
+				</dict>
+				<key>0x67-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>25</integer>
+					<key>Text</key>
+					<string>Detach
+tmux.Detach</string>
 				</dict>
 				<key>0x6e-0x100000</key>
 				<dict>
@@ -1920,6 +1938,47 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>background color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>0.0</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.0</real>
+									<key>Red Component</key>
+									<real>0.0</real>
+								</dict>
+								<key>default text color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>0.0</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.0</real>
+									<key>Red Component</key>
+									<real>1</real>
+								</dict>
+								<key>font</key>
+								<string>NotoMonoForPowerline 8</string>
+								<key>separator color 2</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>0.0</real>
+									<key>Blue Component</key>
+									<real>0.95697027444839478</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.95697027444839478</real>
+									<key>Red Component</key>
+									<real>0.970550537109375</real>
+								</dict>
 							</dict>
 						</dict>
 					</dict>
@@ -2846,6 +2905,14 @@
 					<key>Text</key>
 					<string>0x7f</string>
 				</dict>
+				<key>0x64-0x40000</key>
+				<dict>
+					<key>Action</key>
+					<integer>25</integer>
+					<key>Text</key>
+					<string>Detach
+tmux.Detach</string>
+				</dict>
 				<key>0x6e-0x100000</key>
 				<dict>
 					<key>Action</key>
@@ -3185,13 +3252,13 @@
 						<key>Alpha Component</key>
 						<real>1</real>
 						<key>Blue Component</key>
-						<real>0.0</real>
+						<real>1</real>
 						<key>Color Space</key>
 						<string>sRGB</string>
 						<key>Green Component</key>
-						<real>0.0</real>
+						<real>0.971160888671875</real>
 						<key>Red Component</key>
-						<real>1</real>
+						<real>0.0</real>
 					</dict>
 					<key>font</key>
 					<string>NotoMonoForPowerline 8</string>
@@ -3260,13 +3327,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3335,13 +3402,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3396,6 +3463,47 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>background color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>0.0</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.0</real>
+									<key>Red Component</key>
+									<real>0.0</real>
+								</dict>
+								<key>default text color</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>1</real>
+									<key>Blue Component</key>
+									<real>1</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.971160888671875</real>
+									<key>Red Component</key>
+									<real>0.0</real>
+								</dict>
+								<key>font</key>
+								<string>NotoMonoForPowerline 8</string>
+								<key>separator color 2</key>
+								<dict>
+									<key>Alpha Component</key>
+									<real>0.0</real>
+									<key>Blue Component</key>
+									<real>0.95697027444839478</real>
+									<key>Color Space</key>
+									<string>sRGB</string>
+									<key>Green Component</key>
+									<real>0.95697027444839478</real>
+									<key>Red Component</key>
+									<real>0.970550537109375</real>
+								</dict>
 							</dict>
 						</dict>
 					</dict>
@@ -3450,13 +3558,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3527,13 +3635,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3600,13 +3708,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3671,13 +3779,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3744,13 +3852,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3817,13 +3925,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.0</real>
+									<real>1</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.0</real>
+									<real>0.971160888671875</real>
 									<key>Red Component</key>
-									<real>1</real>
+									<real>0.0</real>
 								</dict>
 								<key>font</key>
 								<string>NotoMonoForPowerline 8</string>
@@ -3897,13 +4005,17 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
+		<string>3.3.8</string>
 		<string>3.3.4</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
+		<string>3.3.7</string>
 		<string>3.2.9</string>
-		<string>3.3.0</string>
 		<string>3.3.2</string>
+		<string>3.3.0</string>
 	</array>
+	<key>NoSyncAutoBurialReveal</key>
+	<true/>
 	<key>NoSyncBFPRecents</key>
 	<array>
 		<string>Meslo LG S for Powerline</string>
@@ -3921,16 +4033,16 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1920, 1080}}</string>
+		<string>{{-1920, 0}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{608, 735}</string>
+		<string>{-1283, 812}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>55F7C1B2-621F-4B50-8109-31F7C7092116</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>53</integer>
+	<integer>119</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -4431,6 +4543,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.titleOverrideFormat</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.tty</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -4464,6 +4584,14 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.tmuxStatusLeft</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.tmuxWindowTitle</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -4715,31 +4843,6 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSearchHistory</key>
-	<array>
-		<string>graphiz</string>
-		<string>graphix</string>
-		<string>GRAP</string>
-		<string>/opt/local/bin/gfortran-mp-8</string>
-		<string>gfortran</string>
-		<string>cyclus.li</string>
-		<string>icu</string>
-		<string>READ_OUT</string>
-		<string>add Usage test to most archetypes:q</string>
-	</array>
-	<key>NoSyncSearchHistory2</key>
-	<array>
-		<string>humbl</string>
-		<string>pynels</string>
-		<string>bootstrap</string>
-		<string>boos</string>
-		<string>cython</string>
-		<string>python</string>
-		<string>.local</string>
-		<string>PYTHON</string>
-		<string>HEUEnrichmentFacility</string>
-		<string>heu</string>
-	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>577847148.47292995</real>
 	<key>OpenTmuxWindowsIn</key>
@@ -4796,13 +4899,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-10-20T20:38:56Z</date>
+	<date>2020-02-12T15:08:48Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SeparateStatusBarsPerPane</key>
-	<false/>
+	<true/>
 	<key>ShowBookmarkName</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
@@ -4852,7 +4955,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.6</string>
+	<string>3.3.8</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
