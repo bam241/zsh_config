@@ -19,6 +19,7 @@ let g:colors_name = "darkmate"
 au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline
 set cursorline
+set cursorcolumn
 
 " Font
 set guifont=Monaco:h12
@@ -42,7 +43,8 @@ hi Exception            guifg=#FF9900 ctermfg=208                           gui=
 hi Function             guifg=#9e91ff ctermfg=141                           gui=none
 hi Define               guifg=#FF9900 ctermfg=208                           gui=none
 hi LineNr               guifg=#FFFFFF ctermfg=117                           gui=none
-hi CursorLine           guibg=#000000 ctermbg=0                             gui=none
+hi CursorLine           guibg=#000000 ctermbg=0    cterm=NONE               gui=none
+hi CursorColumn         guibg=#000000 ctermbg=0    cterm=NONE               gui=none
 
 " Vim Stuff
 hi vimGroup             guifg=#FFFFFF ctermfg=15                            gui=none

@@ -16,6 +16,42 @@ augroup resCur
   autocmd BufReadPost * call setpos(".", getpos("'\""))
 augroup END
 
+" Force to use underline for spell check results
+augroup SpellUnderline autocmd!  
+    autocmd ColorScheme * 
+          \ highlight SpellBad 
+          \     cterm=Underline 
+          \     ctermfg=NONE 
+          \     ctermbg=NONE 
+          \     term=Reverse 
+          \     gui=Undercurl 
+          \     guisp=Red 
+    autocmd ColorScheme * 
+          \ highlight SpellCap 
+          \     cterm=Underline 
+          \     ctermfg=NONE 
+          \     ctermbg=NONE 
+          \     term=Reverse 
+          \     gui=Undercurl 
+          \     guisp=Red 
+    autocmd ColorScheme * 
+          \ highlight SpellLocal 
+          \     cterm=Underline 
+          \     ctermfg=NONE 
+          \     ctermbg=NONE 
+          \     term=Reverse 
+          \     gui=Undercurl 
+          \     guisp=Red 
+    autocmd ColorScheme * 
+          \ highlight SpellRare 
+          \     cterm=Underline 
+          \     ctermfg=NONE 
+          \     ctermbg=NONE 
+          \     term=Reverse 
+          \     gui=Undercurl 
+          \     guisp=Red 
+augroup END
+
 colorscheme darkmate
 syntax enable
 
@@ -155,4 +191,5 @@ let g:bufferline_echo = 0
 
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
+
 
