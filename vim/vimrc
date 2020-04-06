@@ -19,7 +19,6 @@ augroup END
 colorscheme darkmate
 syntax enable
 
-set clipboard=unnamedplus
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Helping with typo :)
