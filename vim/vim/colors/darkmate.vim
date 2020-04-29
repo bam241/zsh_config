@@ -20,6 +20,9 @@ au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline
 set cursorline
 set cursorcolumn
+hi CursorLineNr term=bold cterm=none ctermfg=Yellow gui=bold guifg=Yellow
+
+
 
 " Font
 set guifont=Monaco:h12
