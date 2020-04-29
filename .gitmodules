@@ -32,3 +32,6 @@
 [submodule "tmux/tmux-yank"]
 	path = tmux/tmux-yank
 	url = https://github.com/tmux-plugins/tmux-yank
+[submodule "vim/ale"]
+	path = vim/ale
+	url = https://github.com/dense-analysis/ale.git
