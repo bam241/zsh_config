@@ -1,1 +1,0 @@
-../../vim-cython/syntax/cython.vim
