@@ -4,6 +4,9 @@ let g:ale_sign_error = '●'
 let g:ale_sign_warning = '+'
 
 hi ALEErrorSign ctermfg=Red
+hi ALEError ctermfg=Red cterm=bold,underline
+hi ALEWarning ctermfg=Yellow cterm=bold,underline
+
 hi ALEWarningSign ctermfg=Yellow cterm=bold
 
 hi ALESignColumnWithErrors  guibg=#232323
