@@ -938,7 +938,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>383 781 928 394 0 0 2880 1620 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 -2 2179 1798 0 0 3200 1800 </string>
+	<string>0 1053 992 376 0 0 2560 1440 </string>
 	<key>NeverWarnAboutShortLivedSessions_2988106F-8780-452B-8306-42D3426F32C9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_2988106F-8780-452B-8306-42D3426F32C9_selection</key>
@@ -3066,12 +3066,12 @@ tmux.Detach</string>
 	<array>
 		<string>3.3.6</string>
 		<string>3.3.8</string>
-		<string>3.3.0</string>
+		<string>3.3.2</string>
 		<string>3.3.3</string>
 		<string>3.3.7</string>
 		<string>3.3.9</string>
 		<string>3.2.9</string>
-		<string>3.3.2</string>
+		<string>3.3.0</string>
 		<string>3.3.4</string>
 	</array>
 	<key>NoSyncAutoBurialReveal</key>
@@ -3086,16 +3086,16 @@ tmux.Detach</string>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {3200, 1800}}</string>
+		<string>{{-1080, -480}, {1080, 1920}}</string>
 		<key>topLeft</key>
-		<string>{1067, 1065}</string>
+		<string>{-974, 713}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>31E12504-86FC-48E5-AC22-58934CC607B3</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>141</integer>
+	<integer>243</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3986,7 +3986,7 @@ tmux.Detach</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-14T22:30:13Z</date>
+	<date>2020-05-27T14:08:07Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
