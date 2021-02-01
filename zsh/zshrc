@@ -41,7 +41,6 @@ elif [[ `hostname -s` =~ 'BrightMonolith' ]]; then
   export CORE_MAKE=4
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 else
-  echo "DEFAULT CONFIG"
   eval "$(pyenv init -)"
   export COMP='mbp'
   source $HOME/.zsh_config/zsh/_mbp
