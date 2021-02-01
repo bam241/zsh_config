@@ -35,13 +35,14 @@ elif [[ `hostname -s` =~ 'ip-172-31-27-180' ]]; then
   export COM='AWS'
   source $HOME/.zsh_config/zsh/_kermit
 elif [[ `hostname -s` =~ 'BrightMonolith' ]]; then 
-  eval "$(pyenv init -)"
+  #eval "$(pyenv init -)"
   export COMP='iMac'
   source $HOME/.zsh_config/zsh/_mbp
   export CORE_MAKE=4
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 else
-  eval "$(pyenv init -)"
+  
+#eval "$(pyenv init -)"
   export COMP='mbp'
   source $HOME/.zsh_config/zsh/_mbp
   export CORE_MAKE=4

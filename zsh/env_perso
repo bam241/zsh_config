@@ -21,7 +21,7 @@ export TMUX_SHELL="`ps -p $$ | tail -1 | awk '{ print $4 }'`"
 export XDG_CONFIG_HOME="${HOME}/.config"
 
 if [[ ! $TMUX ]]; then
-    export TERM='xterm-256color'
+    export TERM='xterm-256color-italic'
 else
     export TERM='xterm-256color'
 fi

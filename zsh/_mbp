@@ -1,5 +1,19 @@
 #!/bin/zsh
 
+alias pip="python -m pip"
+alias brew="$HOME/.zsh_config/macros/brew"
+
+pyenv-brew-relink() {
+  rm -f "$HOME/.pyenv/versions/*-brew"
+
+  for i in `ls $(brew --cellar python)`; do
+    ln -sf $i $HOME/.pyenv/versions/${i##/*/}-brew;
+  done
+
+  pyenv rehash
+}
+
+
 alias py_switch="$HOME/.zsh_config/macros/py_switch"
 #alias sed='gsed'
 alias finder="open -a finder"
@@ -10,8 +24,7 @@ alias ql='quick-look'
 
 alias ssh='TERM=xterm-256color ssh'
 
-alias vim='/opt/local/bin/vim'
-alias vi='/opt/local/bin/vim'
+alias vi='vim'
 
 # ENV Variable
 
@@ -20,13 +33,12 @@ export MANPATH="/opt/local/man:$MANPATH"
 export MANPATH="/opt/local/share/man:$MANPATH"
 
 
-export PATH="/opt/local/lib:/opt/local/bin:/opt/local/sbin:/opt/X11/bin:/Library/TeX/texbin:$PATH"
+export PATH="/Library/TeX/texbin:$PATH"
 
 
 # Python 
 export PY_VERSION="`python -c 'import sys; print(".".join(map(str, sys.version_info[:2])))'`"
 export PATH="/Users/mouginot/Library/Python/${PY_VERSION}/bin:${PATH}"
-export PATH="/opt/local/Library/Frameworks/Python.framework/Versions/${PY_VERSION}/bin:${PATH}"
 export PYTHONPATH="$HOME/.local/lib/python${PY_VERSION}/site-packages"
 
 # MOAB Environment Settings
@@ -36,19 +48,19 @@ export PYTHONPATH="${HOME}/work/app/DAGMC_bld/MOAB/lib/python${PY_VERSION}/site-
 
 
 # CMake
-export CMAKE_MODULE_PATH=/opt/local/include
-export CMAKE_PREFIX_PATH=/opt/local
+#export CMAKE_MODULE_PATH=/opt/local/include
+#export CMAKE_PREFIX_PATH=/opt/local
 
 ####---------------------------------------------------####
 # HDF5
 
-export HDF5_DIR=/opt/local/lib
-export HDF5_ROOT=/opt/local/
+#export HDF5_DIR=/opt/local/lib
+#export HDF5_ROOT=/opt/local/
 
 export PATH="$PATH:${HDF5_DIR}"
 
 ####---------------------------------------------------####
-export ROOTSYS="/opt/local/libexec/root6"
+#export ROOTSYS="/opt/local/libexec/root6"
 
 source $HOME/.zsh_config/zsh/env_perso
 source $HOME/.zsh_config/zsh/work
@@ -56,7 +68,7 @@ source $HOME/.zsh_config/zsh/work
 source $HOME/.zsh_config/zsh/macro
 source $HOME/.zsh_config/zsh/alias
 
-plugins=(osx macports docker)
+plugins=(osx brew docker)
 
 source $HOME/.zsh_config/zsh/ohmzsh
 export POWERLINE_CONFIG="$HOME/Library/Python/${PY_VERSION}/lib/python/site-packages/powerline/bindings/tmux/powerline.conf"
