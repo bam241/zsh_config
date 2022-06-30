@@ -1773,13 +1773,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.0865021962672472</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.58941650390625</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.0865021962672472</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -1799,13 +1799,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.81960785388946533</real>
+				<real>0.93725490196078431</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.36078432202339172</real>
+				<real>0.4392156862745098</real>
 				<key>Red Component</key>
-				<real>0.16078431904315948</real>
+				<real>0.3843137254901961</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
@@ -1838,13 +1838,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.96647943649441004</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.96647943649441004</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.98028564453125</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
@@ -1864,13 +1864,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.43432844616472721</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.44706248729785597</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.741485595703125</real>
 			</dict>
 			<key>BM Growl</key>
 			<true/>
@@ -1925,6 +1925,8 @@
 			</dict>
 			<key>Bound Hosts</key>
 			<array/>
+			<key>Brighten Bold Text</key>
+			<false/>
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
@@ -1995,13 +1997,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.96583122387528419</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.96583122387528419</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.97015380859375</real>
 			</dict>
 			<key>Guid</key>
 			<string>2988106F-8780-452B-8306-42D3426F32C9</string>
@@ -2328,7 +2330,7 @@ tmux.Detach</string>
 				<real>0.023000000044703484</real>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>0.45181640624999997</real>
+			<real>0.63369140624999998</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -2340,7 +2342,7 @@ tmux.Detach</string>
 			<key>Non-ASCII Ligatures</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>NotoMonoForPowerline 10</string>
+			<string>NotoMonoForPowerline 11</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Open Toolbelt</key>
@@ -3141,6 +3143,8 @@ tmux.Detach</string>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
 			<real>0.0</real>
+			<key>Unicode Normalization</key>
+			<integer>3</integer>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -3154,7 +3158,7 @@ tmux.Detach</string>
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
-			<true/>
+			<false/>
 			<key>Use Tab Color</key>
 			<true/>
 			<key>Use Underline Color</key>
