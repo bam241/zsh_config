@@ -32,6 +32,10 @@ export PATH="${PATH}:${GOPATH}/bin"
 export PATH=$PATH:$APP_PATH/DAGMC_bld/MOAB/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$APP_PATH/DAGMC_bld/MOAB/lib
 
+#OPEN:C
+export DATA_PATH=${WORK_PATH}/data
+export OPENMC_CROSS_SECTIONS=${DATA_PATH}/endfb80_hdf5/cross_sections.xml
+
 
 # MCNP
 
@@ -45,12 +49,12 @@ export SERPENT_PATH="${APP_PATH}/Serpent/"
 export PATH="${PATH}:${SERPENT_PATH}"
 
 #MURE
-export MURE_PATH=${APP_PATH}/MURE
-export DATADIR=${MURE_PATH}/data
-export MURE_include=${MURE_PATH}/source/include
-export MURE_ExternalPkg=${MURE_PATH}/source/external
-export MURE_lib=${MURE_PATH}/lib
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${MURE_lib}"
+#export MURE_PATH=${APP_PATH}/MURE
+#export DATADIR=${MURE_PATH}/data
+#export MURE_include=${MURE_PATH}/source/include
+#export MURE_ExternalPkg=${MURE_PATH}/source/external
+#export MURE_lib=${MURE_PATH}/lib
+#export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${MURE_lib}"
 #SMURE
 #export SMURE_PATH=${APP_PATH}/SMURE
 #export DATADIR=${SMURE_PATH}/data

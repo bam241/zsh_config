@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 alias pip="python -m pip"
-alias brew="$HOME/.zsh_config/macros/brew"
+#alias brew="$HOME/.zsh_config/macros/brew"
 
 pyenv-brew-relink() {
   rm -f "$HOME/.pyenv/versions/*-brew"
