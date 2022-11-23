@@ -53,7 +53,7 @@ export PATH="$PATH:${HDF5_DIR}"
 ####---------------------------------------------------####
 #export ROOTSYS="/opt/local/libexec/root6"
 
-plugins=(osx brew docker)
+plugins=(macos brew docker)
 
 source $HOME/.zsh_config/zsh/ohmzsh
 export POWERLINE_CONFIG="$HOME/Library/Python/${PY_VERSION}/lib/python/site-packages/powerline/bindings/tmux/powerline.conf"
