@@ -2,19 +2,12 @@
 
 alias pip="python -m pip"
 #alias brew="$HOME/.zsh_config/macros/brew"
+source $HOME/.zsh_config/zsh/env_perso
+source $HOME/.zsh_config/zsh/work
 
-pyenv-brew-relink() {
-  rm -f "$HOME/.pyenv/versions/*-brew"
+source $HOME/.zsh_config/zsh/macro
+source $HOME/.zsh_config/zsh/alias
 
-  for i in `ls $(brew --cellar python)`; do
-    ln -sf $i $HOME/.pyenv/versions/${i##/*/}-brew;
-  done
-
-  pyenv rehash
-}
-
-
-alias py_switch="$HOME/.zsh_config/macros/py_switch"
 #alias sed='gsed'
 alias finder="open -a finder"
 
@@ -62,13 +55,7 @@ export PATH="$PATH:${HDF5_DIR}"
 ####---------------------------------------------------####
 #export ROOTSYS="/opt/local/libexec/root6"
 
-source $HOME/.zsh_config/zsh/env_perso
-source $HOME/.zsh_config/zsh/work
-
-source $HOME/.zsh_config/zsh/macro
-source $HOME/.zsh_config/zsh/alias
-
-plugins=(osx brew docker)
+plugins=(macos brew docker)
 
 source $HOME/.zsh_config/zsh/ohmzsh
 export POWERLINE_CONFIG="$HOME/Library/Python/${PY_VERSION}/lib/python/site-packages/powerline/bindings/tmux/powerline.conf"
