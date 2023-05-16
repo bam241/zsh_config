@@ -42,6 +42,9 @@ export DATA_PATH=${WORK_PATH}/data
 export OPENMC_CROSS_SECTIONS=${DATA_PATH}/endfb80_hdf5/cross_sections.xml
 
 
+# VSCODE
+export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 
 # MCNP
 

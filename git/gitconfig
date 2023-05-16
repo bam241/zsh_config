@@ -4,7 +4,7 @@
   change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f "
 [user]
   name = Baptiste Mouginot
-	email = 15145274+bam241@users.noreply.github.com
+	email =  bam.git.no.reply@gmail.com 
 [color]
   ui = auto
 [push]
