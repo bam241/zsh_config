@@ -6,7 +6,7 @@ source ~/.config/nvim/config_layout.vim
 source ~/.config/nvim/config_shortcut.vim
 source ~/.config/nvim/config_behavior.vim
 source ~/.config/nvim/config_linter.vim
-
+set inccommand=nosplit
 
 """ Auto-unfold all
 "set foldlevelstart=99

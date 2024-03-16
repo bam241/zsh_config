@@ -13,7 +13,7 @@ alias ssh_unlock="security unlock-keychain"
 alias clean='rm *~; rm ~\$*; rm .*.swp; rm \#*\#'
 alias texclean='rm *$HOME \$HOME\$* *.log *.aux *.out *.synctex.gz'
 
-alias vi='vim'
+alias vi='nvim'
 
 export MANPAGER="sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu' \
     -c 'nnoremap i <nop>' \
