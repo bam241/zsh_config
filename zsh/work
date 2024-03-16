@@ -8,6 +8,8 @@ alias cyclus_debug='export CYCLUS_NO_CATCH=1'
 source smux
 
 alias root="root -l"
+alias vpn="~/.ssh/naarea/vpn"
+alias uvpn="open 'anyconnect://disconnect'"
 
 
 ####---------------------------------------------------####

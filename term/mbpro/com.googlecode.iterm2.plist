@@ -2403,6 +2403,8 @@ tmux.Detach</string>
 				<dict>
 					<key>algorithm</key>
 					<integer>0</integer>
+					<key>auto-rainbow style</key>
+					<integer>0</integer>
 					<key>background color</key>
 					<dict>
 						<key>Alpha Component</key>
@@ -2430,7 +2432,9 @@ tmux.Detach</string>
 						<real>1</real>
 					</dict>
 					<key>font</key>
-					<string>NotoMonoForPowerline 8</string>
+					<string>NotoMonoForPowerline 12</string>
+					<key>remove empty components</key>
+					<false/>
 					<key>separator color 2</key>
 					<dict>
 						<key>Alpha Component</key>
@@ -2478,6 +2482,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2505,7 +2511,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2553,6 +2561,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2580,7 +2590,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2632,6 +2644,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2659,7 +2673,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2709,6 +2725,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2736,7 +2754,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2786,6 +2806,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2813,7 +2835,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2859,6 +2883,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2886,7 +2912,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2930,6 +2958,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2957,7 +2987,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -3003,6 +3035,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -3030,7 +3064,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -3076,6 +3112,8 @@ tmux.Detach</string>
 							<dict>
 								<key>algorithm</key>
 								<integer>0</integer>
+								<key>auto-rainbow style</key>
+								<integer>0</integer>
 								<key>background color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -3103,7 +3141,9 @@ tmux.Detach</string>
 									<real>1</real>
 								</dict>
 								<key>font</key>
-								<string>NotoMonoForPowerline 8</string>
+								<string>NotoMonoForPowerline 12</string>
+								<key>remove empty components</key>
+								<false/>
 								<key>separator color 2</key>
 								<dict>
 									<key>Alpha Component</key>

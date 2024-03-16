@@ -1,13 +1,14 @@
-
 [alias]
   plog = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s%Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --graph --decorate --date=relative
   change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f "
 [user]
   name = Baptiste Mouginot
-	email =  bam.git.no.reply@gmail.com 
+  email =  bam.git.no.reply@gmail.com
 [color]
   ui = auto
 [push]
   default = simple
 [core]
   editor = vim
+[http]
+  sslVerify = false

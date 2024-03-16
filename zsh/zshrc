@@ -8,9 +8,7 @@ setopt HIST_IGNORE_DUPS
 # # Even if there are commands in between commands that are the same, still only save the last one
 setopt HIST_IGNORE_ALL_DUPS
 
-
 DEFAULT_USER=mouginot
-
 
 #if [[ `hostname -s` =~ 'mouginotLaptop' || `hostname -s` =~ 'CoffeeBean' || `hostname` =~ 'engr.wisc.edu' || `hostname` =~ 'dhcp-v007-218' ]]; then
 #if [[ `hostname -s` =~ 'submit-3' ]]; then
@@ -35,7 +33,7 @@ DEFAULT_USER=mouginot
 #  export COM='AWS'
 #  source $HOME/.zsh_config/zsh/_kermit
 #el
-if [[ `hostname -s` =~ 'BrightMonolith' ]]; then 
+if [[ `hostname -s` =~ 'BrightMonolith' ]]; then
   eval "$(pyenv init -)"
   export COMP='iMac'
   source $HOME/.zsh_config/zsh/_mbp

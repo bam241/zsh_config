@@ -24,11 +24,13 @@ ln -s ${HOME}/.zsh_config/powerline ${HOME}/.config/powerline
 rm_or_mv ${HOME}/.gitconfig
 ln -s ${HOME}/.zsh_config/git/gitconfig ${HOME}/.gitconfig
 
+rm_or_mv ${HOME}/.config/nvim
+ln -s ${HOME}/.zsh_config/nvim ${HOME}/.config/nvim
 
-rm_or_mv ${HOME}/.vim
-rm_or_mv ${HOME}/.vimrc
-ln -s "${HOME}/.zsh_config/vim/vim" "${HOME}/.vim"
-ln -s "${HOME}/.zsh_config/vim/vimrc" "${HOME}/.vimrc"
+#rm_or_mv ${HOME}/.vim
+#rm_or_mv ${HOME}/.vimrc
+#ln -s "${HOME}/.zsh_config/vim/vim" "${HOME}/.vim"
+#ln -s "${HOME}/.zsh_config/vim/vimrc" "${HOME}/.vimrc"
 
 rm_or_mv ${HOME}/.clang-format
 ln -s ${HOME}/.zsh_config/clang-format/clang-format ${HOME}/.clang-format
