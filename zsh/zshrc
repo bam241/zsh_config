@@ -35,7 +35,7 @@ DEFAULT_USER=mouginot
 #  export COM='AWS'
 #  source $HOME/.zsh_config/zsh/_kermit
 #el
-if [[ `hostname -s` =~ 'BrightMonolith' ]]; then 
+if [[ `hostname -s` =~ 'BrightMonolith' ]]; then
   eval "$(pyenv init -)"
   export COMP='iMac'
   source $HOME/.zsh_config/zsh/_mbp
