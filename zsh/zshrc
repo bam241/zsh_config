@@ -8,9 +8,7 @@ setopt HIST_IGNORE_DUPS
 # # Even if there are commands in between commands that are the same, still only save the last one
 setopt HIST_IGNORE_ALL_DUPS
 
-
 DEFAULT_USER=mouginot
-
 
 #if [[ `hostname -s` =~ 'mouginotLaptop' || `hostname -s` =~ 'CoffeeBean' || `hostname` =~ 'engr.wisc.edu' || `hostname` =~ 'dhcp-v007-218' ]]; then
 #if [[ `hostname -s` =~ 'submit-3' ]]; then

@@ -2,10 +2,16 @@
 #
 function =
 {
-  echo "$@" | root -l
+  python -me `echo $@ | sed -e "s/x/*/g"`
 }
 alias calcul="="
 
+
+function +
+{
+  python -me $@ 
+}
+alias plus="+"
 
 
 function gitcd () 

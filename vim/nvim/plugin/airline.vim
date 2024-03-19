@@ -1,0 +1,1 @@
+../../vim-airline/plugin/airline.vim
