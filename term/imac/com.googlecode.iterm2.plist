@@ -915,13 +915,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.35765109003841644</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.35765109003841644</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.95239925384521484</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
@@ -1158,6 +1158,8 @@
 			</dict>
 			<key>Bound Hosts</key>
 			<array/>
+			<key>Brighten Bold Text</key>
+			<true/>
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
