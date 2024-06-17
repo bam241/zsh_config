@@ -30,16 +30,19 @@ command Q q
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Over command plugin: visual search and replace
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <leader>v :OverCommandLine<CR> %s/<C-r><C-w>/
+if !exists('g:vscode')
+    nnoremap <leader>v :OverCommandLine<CR> %s/<C-r><C-w>/
 
-function! VisualFindAndReplace()
-  :OverCommandLine %s/
-  :noh
-endfunction
-nnoremap <Leader>s :call VisualFindAndReplace()<CR>
+    function! VisualFindAndReplace()
+      :OverCommandLine %s/
+      :noh
+    endfunction
+    nnoremap <Leader>s :call VisualFindAndReplace()<CR>
 
-function! VisualFindAndReplaceWithSelection() range
-  :'<,'>OverCommandLine s/
-  :noh
-endfunction
-xnoremap <Leader>s :call VisualFindAndReplaceWithSelection()<CR>
+    function! VisualFindAndReplaceWithSelection() range
+      :'<,'>OverCommandLine s/
+      :noh
+    endfunction
+    xnoremap <Leader>s :call VisualFindAndReplaceWithSelection()<CR>
+endif
+

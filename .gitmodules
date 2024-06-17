@@ -35,3 +35,6 @@
 [submodule "vim/ale"]
 	path = vim/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "vim/vim-over"]
+	path = vim/vim-over
+	url = https://github.com/osyo-manga/vim-over.git
