@@ -1721,13 +1721,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.93804806470870972</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.48269045352935791</real>
 				<key>Red Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.4652789831161499</real>
 			</dict>
 			<key>Ansi 13 Color</key>
 			<dict>
@@ -1990,6 +1990,8 @@
 			<true/>
 			<key>Draw Powerline Glyphs</key>
 			<true/>
+			<key>Faint Text Alpha</key>
+			<real>0.75770194575471694</real>
 			<key>Flashing Bell</key>
 			<false/>
 			<key>Foreground Color</key>
@@ -2330,7 +2332,7 @@ tmux.Detach</string>
 				<real>0.023000000044703484</real>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>0.63369140624999998</real>
+			<real>0.48968160377358488</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
