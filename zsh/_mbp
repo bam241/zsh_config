@@ -2,7 +2,7 @@
 
 alias pip="python -m pip"
 #alias brew="$HOME/.zsh_config/macros/brew"
-eval "$(/opt/homebrew/bin/brew shellenv)"
+#eval "$(/opt/homebrew/bin/brew shellenv)"
 source $HOME/.zsh_config/zsh/env_perso
 source $HOME/.zsh_config/zsh/work
 
@@ -18,6 +18,8 @@ alias ql='quick-look'
 
 alias ssh='TERM=xterm-256color ssh'
 
+alias vim='nvim'
+alias vi='nvim'
 
 # ENV Variable
 
