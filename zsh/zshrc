@@ -11,7 +11,7 @@ setopt HIST_IGNORE_ALL_DUPS
 DEFAULT_USER=mouginot
 
 if [[ `hostname -s` =~ 'BrightMonolith' ]]; then
-  eval "$(pyenv init -)"
+  #eval "$(pyenv init -)"
   export COMP='iMac'
   source $HOME/.zsh_config/zsh/_mbp
   export CORE_MAKE=4

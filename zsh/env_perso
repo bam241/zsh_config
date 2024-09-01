@@ -8,21 +8,21 @@
 alias pip="python -m pip"
 alias brew="$HOME/.zsh_config/macros/brew"
 
-pyenv-brew-relink() {
-  rm -f "$HOME/.pyenv/versions/*-brew"
-
-  for i in `ls $(brew --cellar python)`; do
-    ln -sf $i $HOME/.pyenv/versions/${i##/*/}-brew;
-  done
-
-  pyenv rehash
-}
+#pyenv-brew-relink() {
+#  rm -f "$HOME/.pyenv/versions/*-brew"
+#
+#  for i in `ls $(brew --cellar python)`; do
+#    ln -sf $i $HOME/.pyenv/versions/${i##/*/}-brew;
+#  done
+#
+#  pyenv rehash
+#}
 
 
 alias py_switch="$HOME/.zsh_config/macros/py_switch"
-export PYENV_ROOT="$HOME/.pyenv"
+#export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/shims:$PATH"
-eval "$(pyenv init -)"
+#eval "$(pyenv init -)"
 
 
 export MANPATH="/usr/local/man:$MANPATH"
