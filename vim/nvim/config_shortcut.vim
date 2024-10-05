@@ -23,7 +23,6 @@ nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :wri
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Helping with typo :)
 command W w
-command Wq wq
 command Q q
 
 
