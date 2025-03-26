@@ -24,3 +24,4 @@ else
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 fi
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+eval "$(rbenv init -)"
