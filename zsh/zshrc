@@ -24,4 +24,8 @@ else
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 fi
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
-eval "$(rbenv init -)"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/mouginot/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions

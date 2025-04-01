@@ -25,7 +25,7 @@ rm_or_mv ${HOME}/.gitconfig
 ln -s ${HOME}/.zsh_config/git/gitconfig ${HOME}/.gitconfig
 
 rm_or_mv ${HOME}/.config/nvim
-ln -s ${HOME}/.zsh_config/nvim ${HOME}/.config/nvim
+ln -s ${HOME}/.zsh_config/vim/nvim ${HOME}/.config/nvim
 
 #rm_or_mv ${HOME}/.vim
 #rm_or_mv ${HOME}/.vimrc
