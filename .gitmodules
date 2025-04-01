@@ -38,3 +38,6 @@
 [submodule "vim/vim-over"]
 	path = vim/vim-over
 	url = https://github.com/osyo-manga/vim-over.git
+[submodule "darkmate"]
+	path = darkmate
+	url = github.com:bam241/darkmate.git
