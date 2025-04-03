@@ -1,5 +1,6 @@
 #!/bin/zsh
 #
+# Requires the e module (pip install e)
 function =
 {
   python -me `echo $@ | sed -e "s/x/*/g"`
@@ -22,12 +23,5 @@ function gitcd ()
   fi
 }
 
-
-function cyclus_release()
-{
-  export CYCLUS_DIR=$CYCLUS_PATH/cyclus
-  export CYCAMORE_DIR=$CYCLUS_PATH/cycamore
-  export CYMETRIC_DIR=$CYCLUS_PATH/cymetric
-}
 
 source cd_def
