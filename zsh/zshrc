@@ -16,6 +16,12 @@ if [[ `hostname -s` =~ 'BrightMonolith' ]]; then
   source $HOME/.zsh_config/zsh/_mbp
   export CORE_MAKE=4
   #test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+elif [[ `hostname -s` =~ 'Mini' ]]; then
+  eval "$(pyenv init -)"
+  export COMP='Mini'
+  source $HOME/.zsh_config/zsh/_mbp
+  export CORE_MAKE=4
+  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 else
   eval "$(pyenv init -)"
   export COMP='mbp'
