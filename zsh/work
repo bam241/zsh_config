@@ -2,14 +2,9 @@
 
 #alias cyplot="cyan -db cyclus.sqlite flowgraph -proto | dot -Tpng > flow.png"
 alias cyclus_debug='export CYCLUS_NO_CATCH=1'
-#export DYLD_FALLBACK_LIBRARY_PATH="/Users/mouginot/.local/lib/cyclus"
 
-#alias cyclist='open /Users/mouginot/work/app/cyclus/cyclist2/deploy/dist/cyclist.jar'
-source smux
-
-alias root="root -l"
-alias vpn="~/.ssh/naarea/vpn"
-alias uvpn="open 'anyconnect://disconnect'"
+#alias vpn="~/.ssh/naarea/vpn"
+#alias uvpn="open 'anyconnect://disconnect'"
 
 
 ####---------------------------------------------------####
@@ -23,7 +18,6 @@ export APP_PATH="${WORK_PATH}/app"
 export CYCLUS_PATH="${APP_PATH}/cyclus"
 export CONSULT_PATH="${HOME}/SynologyDrive/BapLine_Share/BoulotBaM/Consulting/contrat"
 
-#export LD_LIBRARY_PATH="/opt/local/lib"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${HOME}/.local/lib"
 
 export PATH="/usr/local/opt/ruby/bin:$PATH"
@@ -34,7 +28,11 @@ eval "$(rbenv init -)"
 export PATH=$PATH:$APP_PATH/DAGMC_bld/MOAB/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$APP_PATH/DAGMC_bld/MOAB/lib
 
-#OPEN:C
+
+# OpenMP -- from brew
+export OpenMP_ROOT=$(brew --prefix)/opt/libomp
+
+#OPENMC
 export DATA_PATH=${WORK_PATH}/data
 export OPENMC_CROSS_SECTIONS=${DATA_PATH}/jeff-3.3-hdf5/cross_sections.xml
 
