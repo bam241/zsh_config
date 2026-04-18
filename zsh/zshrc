@@ -25,6 +25,7 @@ else
   export COMP='mbp'
   source $HOME/.zsh_config/zsh/_mbp
   export CORE_MAKE=4
+  source $HOME/.zsh_config/zsh/ollama 
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 fi
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
