@@ -8,20 +8,19 @@ setopt HIST_IGNORE_DUPS
 # # Even if there are commands in between commands that are the same, still only save the last one
 setopt HIST_IGNORE_ALL_DUPS
 
-DEFAULT_USER=mouginot
-
+echo `hostname -s`
 if [[ `hostname -s` =~ 'BrightMonolith' ]]; then
   eval "$(pyenv init -)"
   export COMP='iMac'
   source $HOME/.zsh_config/zsh/_mbp
   export CORE_MAKE=4
   #test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-elif [[ `hostname -s` =~ 'Mini' ]]; then
+elif [[ `hostname -s` =~ 'MiniBeast' ]]; then
   eval "$(pyenv init -)"
   export COMP='Mini'
   source $HOME/.zsh_config/zsh/_mbp
   export CORE_MAKE=4
-  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+  #test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 else
   eval "$(pyenv init -)"
   export COMP='mbp'
