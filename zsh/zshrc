@@ -7,7 +7,7 @@ setopt HIST_IGNORE_DUPS
 #
 # # Even if there are commands in between commands that are the same, still only save the last one
 setopt HIST_IGNORE_ALL_DUPS
-
+export DEFAULT_USER="mouginot"
 if [[ `hostname -s` =~ 'BrightMonolith' ]]; then
   eval "$(pyenv init -)"
   export COMP='iMac'
